@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, rem } from "../../../styles";
+import { above, colors, rem } from "../../../styles";
 
 export const StyledNavigation = styled.div`
     .nav {
@@ -55,6 +55,16 @@ export const StyledNavigation = styled.div`
                         }
                     }
                 }
+
+                @media (min-width: ${above(768)}) {
+                    display: none;
+                }
+            }
+
+            @media (min-width: ${above(768)}) {
+                width: 20%;
+                padding: ${rem(5)} 0;
+                margin-right: auto;
             }
         }
 
@@ -86,6 +96,13 @@ export const StyledNavigation = styled.div`
                     background: ${colors.themeAzureWhite};
                 }
 
+                &:nth-child(odd),
+                &:nth-child(even) {
+                    @media (min-width: ${above(768)}) {
+                        background: none;
+                    }
+                }
+
                 &.currentPage {
                     &::before {
                         content: "";
@@ -95,7 +112,25 @@ export const StyledNavigation = styled.div`
                         width: ${rem(10)};
                         height: 100%;
                         background: ${colors.red};
+
+                        @media (min-width: ${above(768)}) {
+                            height: ${rem(4)};
+                            bottom: ${rem(-6)};
+                            width: 100%;
+                        }
                     }
+                }
+
+                + .nav__item {
+                    @media (min-width: ${above(768)}) {
+                        margin-left: 3vw;
+                    }  
+                }
+
+                @media (min-width: ${above(768)}) {
+                    transform: none;
+                    padding: 0;
+                    width: auto;
                 }
             }
 
@@ -106,6 +141,15 @@ export const StyledNavigation = styled.div`
                 .nav__item {
                     transform: translateX(0);
                 }
+            }
+
+            @media (min-width: ${above(768)}) {
+                opacity: 1;
+                height: auto;
+                width: 75%;
+                flex-direction: row;
+                justify-content: flex-end;
+                transition: none;
             }
         }
     }
