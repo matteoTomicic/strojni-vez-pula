@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useState } from 'react';
+import { useState } from "react";
 import { StyledNavigation } from "./Navigation.style";
 import Image from "next/image";
 import images from "../../../constants/image.constants";
@@ -34,21 +34,21 @@ const Navigation = () => {
                         </div>
                         <Image src={images.logo.src} width={images.logo.width} height={images.logo.height} alt={images.logo.alt} title={images.logo.title} priority />
                     </div>
+                    <nav className={`nav__items ${open ? "nav__items--shown" : ""}`}>
+                        <a href="/" title="Početna" className={`nav__item ${isPageActive("/")}`}>
+                            Početna
+                        </a>
+                        <a href="/o-nama" title="O nama" className={`nav__item ${isPageActive("/o-nama")}`}>
+                            O nama
+                        </a>
+                        <a href="/nasi-radovi" title="Naši radovi" className={`nav__item ${isPageActive("/nasi-radovi")}`}>
+                            Naši radovi
+                        </a>
+                        <a href="/kontakt" title="Kontakt" className={`nav__item ${isPageActive("/kontakt")}`}>
+                            Kontakt
+                        </a>
+                    </nav>
                 </div>
-                <nav className={`nav__items ${open ? "nav__items--shown" : ""}`}>
-                    <a href="/" title="Početna" className={`nav__item ${isPageActive("/")}`}>
-                        Početna
-                    </a>
-                    <a href="/o-nama" title="O nama" className={`nav__item ${isPageActive("/o-nama")}`}>
-                        O nama
-                    </a>
-                    <a href="/nasi-radovi" title="Naši radovi" className={`nav__item ${isPageActive("/nasi-radovi")}`}>
-                        Naši radovi
-                    </a>
-                    <a href="/kontakt" title="Kontakt" className={`nav__item ${isPageActive("/kontakt")}`}>
-                        Kontakt
-                    </a>
-                </nav>
             </header>
         </StyledNavigation>
     );

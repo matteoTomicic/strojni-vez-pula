@@ -54,8 +54,6 @@ export const GlobalStyle = createGlobalStyle`
     } 
 
     .container {
-        width: 85%;
-        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
     }

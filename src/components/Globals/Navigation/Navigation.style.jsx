@@ -9,6 +9,7 @@ export const StyledNavigation = styled.div`
             width: 100%;
             display: flex;
             align-items: center;
+            padding: 0 ${rem(30)};
 
             .nav__toggler {
                 display: flex;
