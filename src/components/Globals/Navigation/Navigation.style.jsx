@@ -86,7 +86,7 @@ export const StyledNavigation = styled.div`
                 display: flex;
                 align-items: center;
                 position: relative;
-                font-weight: 800;
+                font-weight: 700;
                 font-size: ${rem(18)};
                 color: ${colors.darkTxtColor};
                 padding: ${rem(20)} 0 ${rem(20)} ${rem(30)};
