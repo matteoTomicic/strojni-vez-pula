@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { above, colors, rem } from "../../../styles";
+import { above, below, colors, rem } from "../../../styles";
 
 export const StyledNavigation = styled.div`
     .nav {
@@ -66,6 +66,10 @@ export const StyledNavigation = styled.div`
                 padding: ${rem(5)} 0;
                 margin-right: auto;
             }
+
+            @media (min-width: ${above(992)}) {
+                padding: ${rem(10)} 0;
+            }
         }
 
         .nav__items {
@@ -103,19 +107,38 @@ export const StyledNavigation = styled.div`
                     }
                 }
 
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    width: ${rem(10)};
+                    height: 0;
+                    background: ${colors.red};
+                    transition: width 0.3s ease-in-out;
+
+                    @media (min-width: ${above(768)}) {
+                        height: ${rem(4)};
+                        bottom: ${rem(-6)};
+                        width: 0;
+                    }
+                }
+
                 &.currentPage {
                     &::before {
-                        content: "";
-                        display: block;
-                        position: absolute;
-                        left: 0;
-                        width: ${rem(10)};
-                        height: 100%;
-                        background: ${colors.red};
+                        @media (max-width: ${below(767)}) {
+                            height: 100%;
+                        }
 
                         @media (min-width: ${above(768)}) {
-                            height: ${rem(4)};
-                            bottom: ${rem(-6)};
+                            width: 100%;
+                        }
+                    }
+                }
+
+                &:not(.currentPage) {
+                    &:hover {
+                        &::before {
                             width: 100%;
                         }
                     }
@@ -124,7 +147,11 @@ export const StyledNavigation = styled.div`
                 + .nav__item {
                     @media (min-width: ${above(768)}) {
                         margin-left: 3vw;
-                    }  
+                    }
+
+                    @media (min-width: ${above(992)}) {
+                        margin-left: 4vw;
+                    }
                 }
 
                 @media (min-width: ${above(768)}) {

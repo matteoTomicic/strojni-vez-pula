@@ -61,5 +61,17 @@ export const GlobalStyle = createGlobalStyle`
         @media (min-width: ${above(768)}) {
             max-width: ${rem(720)};
         }
+
+        @media (min-width: ${above(992)}) {
+            max-width: ${rem(960)};
+        }
+
+        @media (min-width: ${above(1200)}) {
+            max-width: ${rem(1140)};
+        }
+
+        @media (min-width: ${above(1400)}) {
+            max-width: ${rem(1320)};
+        }
     }
 `;
