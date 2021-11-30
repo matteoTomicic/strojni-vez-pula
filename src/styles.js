@@ -56,5 +56,10 @@ export const GlobalStyle = createGlobalStyle`
     .container {
         display: flex;
         flex-wrap: wrap;
+        margin: 0 auto;
+
+        @media (min-width: ${above(768)}) {
+            max-width: ${rem(720)};
+        }
     }
 `;
