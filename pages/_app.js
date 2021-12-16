@@ -1,7 +1,7 @@
-import { GlobalStyle } from "../src/styles";
+import { GlobalStyle } from "styles";
 import Head from "next/head";
-import Layout from "../src/components/Layout/Layout";
-import images from "../src/constants/image.constants";
+import Layout from "components/Layout/Layout";
+import images from "constants/image.constants";
 
 function MyApp({ Component, pageProps }) {
     return (

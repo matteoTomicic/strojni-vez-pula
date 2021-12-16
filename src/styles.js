@@ -3,9 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const colors = {
     darkTxtColor: "#1F1F1F",
     red: "#C35A5A",
-    themeBubbles: "#EBFBFD",
-    themeAzureWhite: "#DEEBED",
-    themeGrey: "#FAF9F9"
+    themeGrey: "#FAF9F9",
+    themeGreyDarken: "#ECECEC"
 };
 
 export const fonts = {

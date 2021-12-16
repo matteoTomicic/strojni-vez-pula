@@ -1,26 +1,26 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { StyledNavigation } from "./Navigation.style";
+import { StyledNavigation } from "components/Globals/Navigation/Navigation.style";
 import Image from "next/image";
-import images from "../../../constants/image.constants";
-import navLinks from "../../../constants/navigation.constants";
+import images from "constants/image.constants";
+import navLinks from "constants/navigation.constants";
 
 const Navigation = () => {
     const router = useRouter();
-    const [onClass, setOnClass] = useState(false);
-    const [open, setOpen] = useState(false);
+    const [toggled, toggle] = useState(false);
+    const [shown, show] = useState(false);
 
-    const classToggle = () => {
-        setOnClass(!onClass);
+    const toggleMenuIcon = () => {
+        toggle(!toggled);
     };
 
-    const checkNav = () => {
-        setOpen(!open);
+    const toggleNav = () => {
+        show(!shown);
     };
 
     const togglerClick = () => {
-        classToggle();
-        checkNav();
+        toggleMenuIcon();
+        toggleNav();
     };
 
     const isPageActive = (route) => (route == router.pathname ? "currentPage" : "");
@@ -30,12 +30,12 @@ const Navigation = () => {
             <header className="nav">
                 <div className="container">
                     <div className="nav__toggler-logo">
-                        <div onClick={togglerClick} className={`nav__toggler ${onClass ? "opened" : ""}`}>
+                        <div onClick={togglerClick} className={`nav__toggler ${toggled ? "active" : ""}`}>
                             <span></span>
                         </div>
                         <Image src={images.logo.src} width={images.logo.width} height={images.logo.height} alt={images.logo.alt} title={images.logo.title} priority />
                     </div>
-                    <nav className={`nav__items ${open ? "nav__items--shown" : ""}`}>
+                    <nav className={`nav__items ${shown ? "nav__items--shown" : ""}`}>
                         {navLinks.map((navItem, index) => {
                             return (
                                 <a key={index} href={navItem.path} title={navItem.title} className={`nav__item ${isPageActive(navItem.path)}`}>

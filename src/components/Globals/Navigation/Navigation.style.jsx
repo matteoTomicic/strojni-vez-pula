@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { above, below, colors, rem } from "../../../styles";
+import { above, below, colors, rem } from "styles";
 
 export const StyledNavigation = styled.div`
     .nav {
@@ -44,7 +44,7 @@ export const StyledNavigation = styled.div`
                     transition: all 0.3s ease-out;
                 }
 
-                &.opened {
+                &.active {
                     span {
                         background-color: transparent;
                         &::before {
@@ -92,12 +92,8 @@ export const StyledNavigation = styled.div`
                 padding: ${rem(20)} 0 ${rem(20)} ${rem(30)};
                 transform: translateX(-100%);
 
-                &:nth-child(odd) {
-                    background: ${colors.themeBubbles};
-                }
-
                 &:nth-child(even) {
-                    background: ${colors.themeAzureWhite};
+                    background: ${colors.themeGreyDarken};
                 }
 
                 &:nth-child(odd),
