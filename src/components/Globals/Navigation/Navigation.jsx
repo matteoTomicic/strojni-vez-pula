@@ -30,15 +30,15 @@ const Navigation = () => {
             <header className="nav">
                 <div className="container">
                     <div className="nav__toggler-logo">
-                        <div onClick={togglerClick} className={`nav__toggler ${toggled ? "active" : ""}`}>
+                        <div onClick={togglerClick} className={["nav__toggler", toggled ? "active" : ""].join(" ")}>
                             <span></span>
                         </div>
                         <Image src={images.logo.src} width={images.logo.width} height={images.logo.height} alt={images.logo.alt} title={images.logo.title} priority />
                     </div>
-                    <nav className={`nav__items ${shown ? "nav__items--shown" : ""}`}>
+                    <nav className={["nav__items", shown ? "nav__items--shown" : ""].join(" ")}>
                         {navLinks.map((navItem, index) => {
                             return (
-                                <a key={index} href={navItem.path} title={navItem.title} className={`nav__item ${isPageActive(navItem.path)}`}>
+                                <a key={index} href={navItem.path} title={navItem.title} className={["nav__item", isPageActive(navItem.path)].join(" ")}>
                                     {navItem.name}
                                 </a>
                             );
