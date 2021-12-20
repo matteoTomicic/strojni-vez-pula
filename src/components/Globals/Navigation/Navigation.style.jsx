@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { above, below, colors, rem } from "styles";
+import { above, below, colors, rem } from "@global/styles";
 
 export const StyledNavigation = styled.div`
     .nav {

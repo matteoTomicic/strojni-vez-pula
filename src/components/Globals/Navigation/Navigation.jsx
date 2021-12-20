@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { StyledNavigation } from "components/Globals/Navigation/Navigation.style";
+import { StyledNavigation } from "@components/Globals/Navigation/Navigation.style";
 import Image from "next/image";
-import images from "constants/image.constants";
-import navLinks from "constants/navigation.constants";
+import images from "@constants/image.constants";
+import navLinks from "@constants/navigation.constants";
 
 const Navigation = () => {
     const router = useRouter();
