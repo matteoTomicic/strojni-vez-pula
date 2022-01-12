@@ -1,21 +1,26 @@
 import styled from "styled-components";
-import { above, below, colors, rem } from "@global/styles";
+import { sizes, colors } from "@global/styles";
 
 export const StyledNavigation = styled.div`
     .nav {
-        box-shadow: 0 ${rem(4)} ${rem(10)} ${rem(-5)} rgba(0, 0, 0, 0.25);
+        box-shadow: 0 .4rem 1rem -.5rem rgba(0, 0, 0, 0.25);
+
+        > .container {
+            width: 100%;
+            padding: 0;
+        }
 
         .nav__toggler-logo {
             width: 100%;
             display: flex;
             align-items: center;
-            padding: 0 ${rem(30)};
+            padding: 0 3rem;
 
             .nav__toggler {
                 display: flex;
                 align-items: center;
-                width: ${rem(36)};
-                height: ${rem(42)};
+                width: 3.6rem;
+                height: 4.2rem;
                 margin-right: auto;
 
                 span {
@@ -27,11 +32,11 @@ export const StyledNavigation = styled.div`
                         content: "";
                         position: absolute;
                         left: 0;
-                        top: ${rem(-9)};
+                        top: -.9rem;
                     }
 
                     &:after {
-                        top: ${rem(9)};
+                        top: .9rem;
                     }
                 }
 
@@ -39,7 +44,7 @@ export const StyledNavigation = styled.div`
                 span::before,
                 span::after {
                     width: 100%;
-                    height: ${rem(2)};
+                    height: .2rem;
                     background-color: ${colors.darkTxtColor};
                     transition: all 0.3s ease-out;
                 }
@@ -48,27 +53,27 @@ export const StyledNavigation = styled.div`
                     span {
                         background-color: transparent;
                         &::before {
-                            transform: rotate(45deg) translate(${rem(5)}, ${rem(5)});
+                            transform: rotate(45deg) translate(.5rem, .5rem);
                         }
                         &::after {
-                            transform: rotate(-45deg) translate(${rem(7)}, ${rem(-8)});
+                            transform: rotate(-45deg) translate(.7rem, -.8rem);
                         }
                     }
                 }
 
-                @media (min-width: ${above(768)}) {
+                @media (min-width: ${sizes.mdBreakMin}) {
                     display: none;
                 }
             }
 
-            @media (min-width: ${above(768)}) {
+            @media (min-width: ${sizes.mdBreakMin}) {
                 width: 20%;
-                padding: ${rem(5)} 0;
+                padding: .5rem 0;
                 margin-right: auto;
             }
 
-            @media (min-width: ${above(992)}) {
-                padding: ${rem(10)} 0;
+            @media (min-width: ${sizes.lgBreakMin}) {
+                padding: 1rem 0;
             }
         }
 
@@ -87,9 +92,9 @@ export const StyledNavigation = styled.div`
                 align-items: center;
                 position: relative;
                 font-weight: 700;
-                font-size: ${rem(18)};
+                font-size: 1.8rem;
                 color: ${colors.darkTxtColor};
-                padding: ${rem(20)} 0 ${rem(20)} ${rem(30)};
+                padding: 2rem 0 2rem 3rem;
                 transform: translateX(-100%);
 
                 &:nth-child(even) {
@@ -98,7 +103,7 @@ export const StyledNavigation = styled.div`
 
                 &:nth-child(odd),
                 &:nth-child(even) {
-                    @media (min-width: ${above(768)}) {
+                    @media (min-width: ${sizes.mdBreakMin}) {
                         background: none;
                     }
                 }
@@ -108,25 +113,30 @@ export const StyledNavigation = styled.div`
                     display: block;
                     position: absolute;
                     left: 0;
-                    width: ${rem(10)};
+                    width: 1rem;
                     height: 0;
                     background: ${colors.red};
                     transition: width 0.3s ease-in-out;
 
-                    @media (min-width: ${above(768)}) {
-                        height: ${rem(4)};
-                        bottom: ${rem(-6)};
+                    @media (min-width: ${sizes.mdBreakMin}) {
+                        height: .4rem;
+                        bottom: -.6rem;
                         width: 0;
                     }
                 }
 
+                &:active,
+                &:focus {
+                    outline: .1rem solid ${colors.red};
+                }
+
                 &.currentPage {
                     &::before {
-                        @media (max-width: ${below(767)}) {
+                        @media (max-width: ${sizes.mdBreakMax}) {
                             height: 100%;
                         }
 
-                        @media (min-width: ${above(768)}) {
+                        @media (min-width: ${sizes.mdBreakMin}) {
                             width: 100%;
                         }
                     }
@@ -141,16 +151,16 @@ export const StyledNavigation = styled.div`
                 }
 
                 + .nav__item {
-                    @media (min-width: ${above(768)}) {
+                    @media (min-width: ${sizes.mdBreakMin}) {
                         margin-left: 3vw;
                     }
 
-                    @media (min-width: ${above(992)}) {
+                    @media (min-width: ${sizes.lgBreakMin}) {
                         margin-left: 4vw;
                     }
                 }
 
-                @media (min-width: ${above(768)}) {
+                @media (min-width: ${sizes.mdBreakMin}) {
                     transform: none;
                     padding: 0;
                     width: auto;
@@ -166,7 +176,7 @@ export const StyledNavigation = styled.div`
                 }
             }
 
-            @media (min-width: ${above(768)}) {
+            @media (min-width: ${sizes.mdBreakMin}) {
                 opacity: 1;
                 height: auto;
                 width: 75%;

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const colors = {
     darkTxtColor: "#1F1F1F",
-    red: "#C35A5A",
+    red: "#9A3737",
     themeGrey: "#FAF9F9",
     themeGreyDarken: "#ECECEC"
 };
@@ -11,11 +11,14 @@ export const fonts = {
     font: "'Montserrat', sans-serif"
 };
 
-export const rem = (px) => px / 16 + "rem";
-
-export const above = (widthPx) => widthPx / 16 + "rem";
-
-export const below = (widthPx) => widthPx / 16 + "rem";
+export const sizes = {
+    smBreakMin: "36rem",
+    mdBreakMin: "48rem",
+    lgBreakMin: "62rem",
+    xlBreakMin: "75rem",
+    xxlBreakMin: "87.5rem",
+    mdBreakMax: "47.999rem"
+};
 
 export const GlobalStyle = createGlobalStyle`
     *,
@@ -30,10 +33,11 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         line-height: 1.15;
         -webkit-text-size-adjust: 100%;
+        font-size: 62.5%;
     }
 
     body {
-        font-size: ${rem(16)};
+        font-size: 1.6rem;
         font-family: ${fonts.font};
         background: ${colors.themeGrey};
     }
@@ -56,21 +60,49 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
+        padding: 0 3rem;
 
-        @media (min-width: ${above(768)}) {
-            max-width: ${rem(720)};
+        @media (min-width: ${sizes.mdBreakMin}) {
+            max-width: 72rem;
+            padding: 0;
         }
 
-        @media (min-width: ${above(992)}) {
-            max-width: ${rem(960)};
+        @media (min-width: ${sizes.lgBreakMin}) {
+            max-width: 96rem;
         }
 
-        @media (min-width: ${above(1200)}) {
-            max-width: ${rem(1140)};
+        @media (min-width: ${sizes.xlBreakMin}) {
+            max-width: 114rem;
         }
 
-        @media (min-width: ${above(1400)}) {
-            max-width: ${rem(1320)};
+        @media (min-width: ${sizes.xxlBreakMin}) {
+            max-width: 132rem;
+        }
+    }
+
+    .cta {
+        padding: 0.72em 1.58em;
+        font-size: 1.4rem;
+        font-weight: bold;
+        border-radius: 0.4em;
+        transition: all 0.2s ease-in-out;
+
+        &--red {
+            background: ${colors.red};
+            color: white;
+        }
+
+        &--white {
+            background: white;
+        }
+
+        &:active,
+        &:focus {
+            outline: .1rem solid black;
+        }
+
+        &:hover {
+            transform: scale(1.05);
         }
     }
 `;

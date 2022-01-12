@@ -1,5 +1,9 @@
+import HomepageBanner from "@components/HomepageBanner/HomepageBanner";
+
 const Home = () => {
-    return null;
+    return (
+        <HomepageBanner />
+    );
 };
 
 export default Home;
