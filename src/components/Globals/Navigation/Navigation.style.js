@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { sizes, colors } from "@global/styles";
 
-export const StyledNavigation = styled.div`
+export const StyledNavigation = styled.header`
     .nav {
         box-shadow: 0 .4rem 1rem -.5rem rgba(0, 0, 0, 0.25);
 
@@ -10,13 +10,24 @@ export const StyledNavigation = styled.div`
             padding: 0;
         }
 
-        .nav__toggler-logo {
+        &__togglerLogo {
             width: 100%;
             display: flex;
             align-items: center;
             padding: 0 3rem;
 
-            .nav__toggler {
+            @media (min-width: ${sizes.mdBreakMin}) {
+                width: 20%;
+                padding: .5rem 0;
+                margin-right: auto;
+            }
+
+            @media (min-width: ${sizes.lgBreakMin}) {
+                padding: 1rem 0;
+            }
+        }
+
+        &__toggler {
                 display: flex;
                 align-items: center;
                 width: 3.6rem;
@@ -66,18 +77,7 @@ export const StyledNavigation = styled.div`
                 }
             }
 
-            @media (min-width: ${sizes.mdBreakMin}) {
-                width: 20%;
-                padding: .5rem 0;
-                margin-right: auto;
-            }
-
-            @media (min-width: ${sizes.lgBreakMin}) {
-                padding: 1rem 0;
-            }
-        }
-
-        .nav__items {
+        &__items {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -86,7 +86,26 @@ export const StyledNavigation = styled.div`
             height: 0;
             transition: all 0.7s ease-in-out;
 
-            .nav__item {
+            &--shown {
+                opacity: 1;
+                height: auto;
+
+                .nav__item {
+                    transform: translateX(0);
+                }
+            }
+
+            @media (min-width: ${sizes.mdBreakMin}) {
+                opacity: 1;
+                height: auto;
+                width: 75%;
+                flex-direction: row;
+                justify-content: flex-end;
+                transition: none;
+            }
+        }
+
+        &__item {
                 width: 100%;
                 display: flex;
                 align-items: center;
@@ -166,24 +185,5 @@ export const StyledNavigation = styled.div`
                     width: auto;
                 }
             }
-
-            &.nav__items--shown {
-                opacity: 1;
-                height: auto;
-
-                .nav__item {
-                    transform: translateX(0);
-                }
-            }
-
-            @media (min-width: ${sizes.mdBreakMin}) {
-                opacity: 1;
-                height: auto;
-                width: 75%;
-                flex-direction: row;
-                justify-content: flex-end;
-                transition: none;
-            }
-        }
     }
 `;

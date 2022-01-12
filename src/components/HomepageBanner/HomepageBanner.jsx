@@ -6,7 +6,7 @@ import Image from "next/image";
 const HomepageBanner = () => {
 	return (
 		<StyledHomepageBanner>
-			<section className="homepageBanner">
+			<div className="homepageBanner">
 				<Image
 					src={images.banners.homepageBanner.src}
 					alt={images.banners.homepageBanner.alt}
@@ -19,19 +19,19 @@ const HomepageBanner = () => {
 					className="homepageBanner__image"
 				/>
 				<div className="container">
-				<div className="homepageBanner__content">
-					<h1 className="homepageBanner__content-heading">Strojni vez</h1>
-					<p className="homepageBanner__content-info">
-						Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i
-						šivanjem jastučića, posteljina te raznih modnih dodataka.
-					</p>
-					<div className="homepageBanner__content-cta">
-						<CtaButton href="/kontakt" className="cta--red" linkTitle="Javite nam se" />
-						<CtaButton href="/nasi-radovi" className="cta--white" linkTitle="Pogledajte naše radove" />
+					<div className="homepageBanner__content">
+						<h1 className="homepageBanner__contentHeading">Strojni vez</h1>
+						<p className="homepageBanner__contentInfo">
+							Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i
+							šivanjem jastučića, posteljina te raznih modnih dodataka.
+						</p>
+						<div className="homepageBanner__contentCta">
+							<CtaButton href="/kontakt" className="cta--red" linkTitle="Javite nam se" />
+							<CtaButton href="/nasi-radovi" className="cta--white" linkTitle="Pogledajte naše radove" />
+						</div>
 					</div>
 				</div>
-				</div>
-			</section>
+			</div>
 		</StyledHomepageBanner>
 	);
 };

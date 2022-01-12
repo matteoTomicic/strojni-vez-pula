@@ -1,34 +1,35 @@
 import styled from "styled-components";
 import { sizes } from "@global/styles";
 
-export const StyledHomepageBanner = styled.div`
+export const StyledHomepageBanner = styled.section`
 	.homepageBanner {
 		position: relative;
 
-		.homepageBanner__image {
+		&__image {
 			filter: brightness(40%);
 		}
 
-		.homepageBanner__content {
+		&__content {
 			position: relative;
 			z-index: 999;
 			padding: 6vw 0;
+		}
 
-			.homepageBanner__content-heading {
+		&__contentHeading {
 				margin-bottom: 4vw;
 				color: white;
 				font-size: calc(2.4rem + (48 - 24) * ((100vw - 37.5rem) / (1400 - 375)));
-			}
+		}
 
-			.homepageBanner__content-info {
+		&__contentInfo {
 				margin-bottom: 5vw;
 				line-height: 1.3em;
 				color: white;
 				font-size: calc(1.4rem + (18 - 14) * ((100vw - 37.5rem) / (1400 - 375)));
 				width: clamp(31.5rem, 55vw, 65rem);
-			}
+		}
 
-			.homepageBanner__content-cta {
+		&__contentCta {
 				display: flex;
 				flex-wrap: wrap;
 				max-width: 36rem;
@@ -50,7 +51,6 @@ export const StyledHomepageBanner = styled.div`
                     flex-direction: row;
                     max-width: unset;
                 }
-			}
 		}
 	}
 `;

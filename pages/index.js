@@ -1,8 +1,12 @@
+import Layout from "@components/Layout/Layout";
 import HomepageBanner from "@components/HomepageBanner/HomepageBanner";
 
 const Home = () => {
     return (
-        <HomepageBanner />
+
+        <Layout title="Strojni vez Pula">
+            <HomepageBanner />
+        </Layout>
     );
 };
 
