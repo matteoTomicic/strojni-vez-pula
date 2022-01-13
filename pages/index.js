@@ -3,7 +3,6 @@ import HomepageBanner from "@components/HomepageBanner/HomepageBanner";
 
 const Home = () => {
     return (
-
         <Layout title="Strojni vez Pula">
             <HomepageBanner />
         </Layout>
