@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const colors = {
     darkTxtColor: "#1F1F1F",
+    lightTxtColor: "#5A5A5A",
     red: "#9A3737",
     themeGrey: "#FAF9F9",
     themeGreyDarken: "#ECECEC"
