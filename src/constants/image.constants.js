@@ -14,6 +14,29 @@ const images = {
             width: 2000,
             height: 1125
         }
+    },
+    icons: {
+        foldedShirt: {
+            src: "/homepage/WhatWeDo-card-icons/noun-shirt-2382824.png",
+            title: "Folded shirt icon",
+            alt: "Folded shirt icon",
+            width: 120,
+            height: 120
+        },
+        babyShirt: {
+            src: "/homepage/WhatWeDo-card-icons/noun-shirt-2382793.png",
+            title: "Baby shirt icon",
+            alt: "Baby shirt icon",
+            width: 120,
+            height: 120
+        },
+        towel: {
+            src: "/homepage/WhatWeDo-card-icons/noun-towel-2382768.png",
+            title: "Towel icon",
+            alt: "Towel icon",
+            width: 120,
+            height: 120
+        }
     }
 };
 
