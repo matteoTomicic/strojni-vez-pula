@@ -18,14 +18,12 @@ export const StyledHomepageBanner = styled.section`
 		&__contentHeading {
 				margin-bottom: 4vw;
 				color: white;
-				font-size: calc(2.4rem + (48 - 24) * ((100vw - 37.5rem) / (1400 - 375)));
 		}
 
 		&__contentInfo {
 				margin-bottom: 5vw;
 				line-height: 1.3em;
 				color: white;
-				font-size: calc(1.4rem + (18 - 14) * ((100vw - 37.5rem) / (1400 - 375)));
 				width: clamp(31.5rem, 55vw, 65rem);
 		}
 
@@ -35,8 +33,6 @@ export const StyledHomepageBanner = styled.section`
 				max-width: 36rem;
 
 				.cta {
-					font-size: calc(1.4rem + (18 - 14) * ((100vw - 37.5rem) / (1400 - 375)));
-
 					+ .cta {
 						margin-top: 1em;
 

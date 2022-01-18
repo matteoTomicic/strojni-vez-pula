@@ -17,21 +17,21 @@ const images = {
     },
     icons: {
         foldedShirt: {
-            src: "/homepage/WWD-card-icons/noun-shirt-2382824.png",
+            src: "/homepage/WhatWeDo-card-icons/noun-shirt-2382824.png",
             title: "Folded shirt icon",
             alt: "Folded shirt icon",
             width: 120,
             height: 120
         },
         babyShirt: {
-            src: "/homepage/WWD-card-icons/noun-shirt-2382793.png",
+            src: "/homepage/WhatWeDo-card-icons/noun-shirt-2382793.png",
             title: "Baby shirt icon",
             alt: "Baby shirt icon",
             width: 120,
             height: 120
         },
         towel: {
-            src: "/homepage/WWD-card-icons/noun-towel-2382768.png",
+            src: "/homepage/WhatWeDo-card-icons/noun-towel-2382768.png",
             title: "Towel icon",
             alt: "Towel icon",
             width: 120,

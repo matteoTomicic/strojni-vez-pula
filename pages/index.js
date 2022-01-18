@@ -1,12 +1,12 @@
 import Layout from "@components/Layout/Layout";
 import HomepageBanner from "@components/HomepageBanner/HomepageBanner";
-import WWD from "@components/WWD/WWD";
+import WhatWeDo from "@components/WhatWeDo/WhatWeDo";
 
 const Home = () => {
     return (
         <Layout title="Strojni vez Pula">
             <HomepageBanner />
-            <WWD />
+            <WhatWeDo />
         </Layout>
     );
 };

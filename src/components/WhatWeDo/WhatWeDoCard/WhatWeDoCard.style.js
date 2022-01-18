@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors, sizes } from "@global/styles";
 
-export const StyledWWDCard = styled.div`
+export const StyledWhatWeDoCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +18,8 @@ export const StyledWWDCard = styled.div`
         }
     }
 
-    h2 {
+    h3 {
         text-align: center;
-        font-size: calc(1.8rem + (24 - 18) * ((100vw - 37.5rem) / (1900 - 375)));
         line-height: 1.2em;
         color: ${colors.darkTxtColor};
         margin: 1em 0 1em 0;
@@ -29,7 +28,6 @@ export const StyledWWDCard = styled.div`
 
     p {
         text-align: center;
-        font-size: calc(1.4rem + (18 - 14) * ((100vw - 37.5rem) / (1900 - 375)));
         line-height: 1.2em;
         color: ${colors.lightTxtColor};
         max-width: 80vw;
