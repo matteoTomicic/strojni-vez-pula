@@ -20,7 +20,6 @@ export const StyledWhatWeDoCard = styled.div`
 
     h3 {
         text-align: center;
-        line-height: 1.2em;
         color: ${colors.darkTxtColor};
         margin: 1em 0 1em 0;
         max-width: 60vw;
@@ -28,7 +27,6 @@ export const StyledWhatWeDoCard = styled.div`
 
     p {
         text-align: center;
-        line-height: 1.2em;
         color: ${colors.lightTxtColor};
         max-width: 80vw;
     }

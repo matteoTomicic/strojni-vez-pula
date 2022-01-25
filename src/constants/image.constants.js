@@ -13,6 +13,13 @@ const images = {
             alt: "Threads banner",
             width: 2000,
             height: 1125
+        },
+        threadsShelf: {
+            src: "/homepage/threadsShelf.jpg",
+            title: "Threads on the shelf",
+            alt: "Threads on the shelf",
+            width: 625,
+            height: 431
         }
     },
     icons: {
