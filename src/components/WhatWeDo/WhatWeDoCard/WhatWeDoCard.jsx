@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { StyledWhatWeDoCard } from "@components/WhatWeDo/WhatWeDoCard/WhatWeDoCard.style";
 import Image from "next/image";
 import PropTypes from "prop-types";
 
 const WhatWeDoCard = (props) => (
 	<StyledWhatWeDoCard>
-		<Image src={props.image.src} alt={props.image.alt} title={props.image.title} width={props.image.width} height={props.image.height} />
+		<Image {...props.image} />
 		<h3>{props.cardTitle}</h3>
 		<p>{props.cardInfo}</p>
 	</StyledWhatWeDoCard>

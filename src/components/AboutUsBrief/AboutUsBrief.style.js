@@ -26,9 +26,9 @@ export const StyledAboutUsBrief = styled.section`
 
 		.AboutUsBrief__image {
 			&--sp {
-				margin: 2rem 0;
+				margin: 2rem auto;
 				display: flex;
-				justify-content: center;
+				max-width: 43rem;
 
 				@media (min-width: ${sizes.mdBreakMin}) {
 					display: none;

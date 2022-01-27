@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import images from "@global/constants/image.constants";
+import images from "@constants/image.constants";
 import { StyledAboutUsBrief } from "@components/AboutUsBrief/AboutUsBrief.style";
 import CtaButton from "@components/UI/CtaButton";
 
@@ -8,24 +9,12 @@ const AboutUsBrief = () => {
 		<StyledAboutUsBrief className="AboutUsBrief">
 			<div className="container">
 				<div className="AboutUsBrief__image AboutUsBrief__image--dt">
-					<Image
-						src={images.banners.threadsShelf.src}
-						alt={images.banners.threadsShelf.alt}
-						title={images.banners.threadsShelf.title}
-						width={images.banners.threadsShelf.width}
-						height={images.banners.threadsShelf.height}
-					/>
+					<Image {...images.banners.threadsShelf} />
 				</div>
 				<div className="AboutUsBrief__content">
 					<h2>Preko 20 godina iskustva strojnog vezenja.</h2>
 					<div className="AboutUsBrief__image AboutUsBrief__image--sp">
-						<Image
-							src={images.banners.threadsShelf.src}
-							alt={images.banners.threadsShelf.alt}
-							title={images.banners.threadsShelf.title}
-							width={350}
-							height={241}
-						/>
+						<Image {...images.banners.threadsShelf} />
 					</div>
 					<div className="AboutUsBrief__ctaBox">
 						<p>
