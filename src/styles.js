@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const colors = {
     darkTxtColor: "#1F1F1F",
+    darkTxtGreyBackground: "#343434",
     lightTxtColor: "#5A5A5A",
     red: "#9A3737",
     themeGrey: "#FAF9F9",
@@ -45,6 +46,7 @@ export const GlobalStyle = createGlobalStyle`
 
     h1 {
         font-size: 3.2rem;
+        color: ${colors.darkTxtColor};
 
         @media (min-width: ${sizes.mdBreakMin}) {
             font-size: 3.8rem;
@@ -57,6 +59,7 @@ export const GlobalStyle = createGlobalStyle`
 
     h2 {
         font-size: 2.4rem;
+        color: ${colors.darkTxtColor};
 
         @media (min-width: ${sizes.mdBreakMin}) {
             font-size: 2.8rem;
@@ -69,6 +72,7 @@ export const GlobalStyle = createGlobalStyle`
 
     h3 {
         font-size: 1.8rem;
+        color: ${colors.darkTxtColor};
 
         @media (min-width: ${sizes.mdBreakMin}) {
             font-size: 2rem;
@@ -77,6 +81,11 @@ export const GlobalStyle = createGlobalStyle`
         @media (min-width: ${sizes.lgBreakMin}) {
             font-size: 2.4rem;
         }
+    }
+
+    p {
+        color: ${colors.lightTxtColor};
+        line-height: 1.2em;
     }
 
     p,
@@ -133,7 +142,6 @@ export const GlobalStyle = createGlobalStyle`
 
     .cta {
         padding: 0.72em 1.58em;
-        font-size: 1.4rem;
         font-weight: bold;
         border-radius: 0.4em;
         transition: all 0.2s ease-in-out;
@@ -145,6 +153,11 @@ export const GlobalStyle = createGlobalStyle`
 
         &--white {
             background: white;
+        }
+
+        &--dark {
+            background: ${colors.darkTxtColor};
+            color: white;
         }
 
         &:active,

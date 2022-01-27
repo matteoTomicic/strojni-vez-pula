@@ -1,22 +1,13 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { StyledHomepageBanner } from "@components/HomepageBanner/HomepageBanner.style";
 import CtaButton from "@components/UI/CtaButton";
-import images from "@global/constants/image.constants";
+import images from "@constants/image.constants";
 import Image from "next/image";
 
 const HomepageBanner = () => (
 	<StyledHomepageBanner>
 		<div className="homepageBanner">
-			<Image
-				src={images.banners.homepageBanner.src}
-				alt={images.banners.homepageBanner.alt}
-				title={images.banners.homepageBanner.title}
-				layout="fill"
-				objectFit="cover"
-				objectPosition="right bottom"
-				priority
-				quality={100}
-				className="homepageBanner__image"
-			/>
+			<Image {...images.banners.homepageBanner} className="homepageBanner__image" />
 			<div className="container">
 				<div className="homepageBanner__content">
 					<h1 className="homepageBanner__contentHeading">Strojni vez</h1>

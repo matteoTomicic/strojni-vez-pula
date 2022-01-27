@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { StyledNavigation } from "@components/Globals/Navigation/Navigation.style";
@@ -33,7 +34,7 @@ const Navigation = () => {
 						<div onClick={togglerClick} className={["nav__toggler", toggler ? "active" : ""].join(" ")}>
 							<span></span>
 						</div>
-						<Image src={images.logo.src} width={images.logo.width} height={images.logo.height} alt={images.logo.alt} title={images.logo.title} priority />
+						<Image {...images.logo} />
 					</div>
 					<nav className={["nav__items", isShown ? "nav__items--shown" : ""].join(" ")}>
 						{navLinks.map((navItem, index) => {
