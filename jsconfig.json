@@ -10,6 +10,12 @@
             ],
             "@constants/*": [
                 "./src/constants/*"
+            ],
+            "@mocks/*": [
+                "./src/mocks/*"
+            ],
+            "@UI/*": [
+                "./src/components/UI/*"
             ]
         }
     },

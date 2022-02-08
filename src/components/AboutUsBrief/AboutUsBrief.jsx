@@ -2,19 +2,19 @@
 import Image from "next/image";
 import images from "@constants/image.constants";
 import { StyledAboutUsBrief } from "@components/AboutUsBrief/AboutUsBrief.style";
-import CtaButton from "@components/UI/CtaButton";
+import CtaButton from "@UI/CtaButton";
 
 const AboutUsBrief = () => {
 	return (
 		<StyledAboutUsBrief className="AboutUsBrief">
 			<div className="container">
 				<div className="AboutUsBrief__image AboutUsBrief__image--dt">
-					<Image {...images.banners.threadsShelf} />
+					<Image {...images.banners.konciZaVezenje} />
 				</div>
 				<div className="AboutUsBrief__content">
 					<h2>Preko 20 godina iskustva strojnog vezenja.</h2>
 					<div className="AboutUsBrief__image AboutUsBrief__image--sp">
-						<Image {...images.banners.threadsShelf} />
+						<Image {...images.banners.konciZaVezenje} />
 					</div>
 					<div className="AboutUsBrief__ctaBox">
 						<p>

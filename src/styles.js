@@ -122,6 +122,10 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
         padding: 0 3rem;
 
+        &--column {
+            flex-direction: column;
+        }
+
         @media (min-width: ${sizes.mdBreakMin}) {
             max-width: 72rem;
             padding: 0;
