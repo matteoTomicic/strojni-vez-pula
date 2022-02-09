@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import PropTypes from "prop-types";
 
 const ImageCarousel = (props) => {
 	return (
@@ -16,6 +17,12 @@ const ImageCarousel = (props) => {
 			})}
 		</Slider>
 	);
+};
+
+ImageCarousel.propTypes = {
+	settings: PropTypes.object.isRequired,
+	rtl: PropTypes.bool,
+	images: PropTypes.array.isRequired,
 };
 
 export default ImageCarousel;

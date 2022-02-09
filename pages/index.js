@@ -3,6 +3,7 @@ import HomepageBanner from "@components/HomepageBanner/HomepageBanner";
 import WhatWeDo from "@components/WhatWeDo/WhatWeDo";
 import AboutUsBrief from "@components/AboutUsBrief/AboutUsBrief";
 import LatestWorkSection from "@components/LatestWorkSection/LatestWorkSection";
+import ContactUsSection from "@components/ContactUsSection/ContactUsSection";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <WhatWeDo />
             <AboutUsBrief />
             <LatestWorkSection />
+            <ContactUsSection />
         </Layout>
     );
 };
