@@ -22,8 +22,8 @@ const images = {
 			src: "/images/homepage/konci_za_vezenje.jpg",
 			title: "Konci za vezenje",
 			alt: "Konci za vezenje",
-			width: 625,
-			height: 431,
+			width: 724,
+			height: 509,
 		},
 	},
 	icons: {
