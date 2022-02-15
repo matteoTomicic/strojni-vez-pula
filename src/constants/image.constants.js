@@ -9,12 +9,12 @@ const images = {
 	},
 	banners: {
 		homepageBanner: {
-			src: "/images/homepage/konci.jpg",
-			title: "Konci za vezenje banner",
-			alt: "Konci za vezenje banner",
+			src: "/images/homepage/Strojni-vez-Pula.jpg",
+			title: "Strojni vez Pula banner",
+			alt: "Strojni vez Pula banner",
 			layout: "fill",
 			objectFit: "cover",
-			objectPosition: "right bottom",
+			objectPosition: "top",
 			priority: true,
 			quality: 100,
 		},

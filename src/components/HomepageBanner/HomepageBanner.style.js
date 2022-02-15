@@ -6,13 +6,13 @@ export const StyledHomepageBanner = styled.section`
 		position: relative;
 
 		&__image {
-			filter: brightness(40%);
+			filter: brightness(35%);
 		}
 
 		&__content {
 			position: relative;
 			z-index: 999;
-			padding: 6vw 0;
+			padding: 7vw 0;
 		}
 
 		&__contentHeading {
