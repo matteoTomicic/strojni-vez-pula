@@ -44,6 +44,10 @@ export const StyledAboutUsBrief = styled.section`
 					display: block;
 				}
 			}
+
+			img {
+				border-radius: .5rem;
+			}
 		}
 
 		.AboutUsBrief__content {
