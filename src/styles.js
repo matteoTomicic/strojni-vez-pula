@@ -6,7 +6,9 @@ export const colors = {
     lightTxtColor: "#5A5A5A",
     red: "#9A3737",
     themeGrey: "#FAF9F9",
-    themeGreyDarken: "#ECECEC"
+    themeGreyDarken: "#ECECEC",
+    themeGreenLight: "#D1EBE6"
+
 };
 
 export const fonts = {

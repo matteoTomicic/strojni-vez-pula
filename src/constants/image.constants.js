@@ -48,6 +48,41 @@ const images = {
 			width: 120,
 			height: 120,
 		},
+		facebook: {
+			src: "/images/global/facebook.svg",
+			title: "Facebook icon",
+			alt: "Facebook icon",
+			width: 25,
+			height: 25,
+		},
+		instagram: {
+			src: "/images/global/instagram.svg",
+			title: "Instagram icon",
+			alt: "Instagram icon",
+			width: 25,
+			height: 25,
+		},
+		phone: {
+			src: "/images/global/phone-call.svg",
+			title: "Phone Call icon",
+			alt: "Phone Call icon",
+			width: 25,
+			height: 25,
+		},
+		mail: {
+			src: "/images/global/mail.svg",
+			title: "Mail icon",
+			alt: "Mail icon",
+			width: 25,
+			height: 25,
+		},
+		location: {
+			src: "/images/global/map-pin.svg",
+			title: "Location icon",
+			alt: "Location icon",
+			width: 25,
+			height: 25,
+		},
 	},
 	ourWorkImages: {
 		djecijiRucnici: {
