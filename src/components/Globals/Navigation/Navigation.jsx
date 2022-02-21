@@ -30,16 +30,16 @@ const Navigation = () => {
 		<StyledNavigation>
 			<div className="nav">
 				<div className="container">
-					<div className="nav__togglerLogo">
-						<div onClick={togglerClick} className={["nav__toggler", toggler ? "active" : ""].join(" ")}>
+					<div className="togglerLogo">
+						<div onClick={togglerClick} className={["toggler", toggler ? "active" : ""].join(" ")}>
 							<span></span>
 						</div>
 						<Image {...images.logo} />
 					</div>
-					<nav className={["nav__items", isShown ? "nav__items--shown" : ""].join(" ")}>
+					<nav className={["nav-items", isShown ? "nav-items-shown" : ""].join(" ")}>
 						{navLinks.map((navItem, index) => {
 							return (
-								<a key={index} href={navItem.path} title={navItem.title} className={["nav__item", isPageActive(navItem.path)].join(" ")}>
+								<a key={index} href={navItem.path} title={navItem.title} className={["nav-item", isPageActive(navItem.path)].join(" ")}>
 									{navItem.name}
 								</a>
 							);
