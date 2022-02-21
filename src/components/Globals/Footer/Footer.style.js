@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors, sizes } from "@global/styles";
 
-export const StyledFooter = styled.section`
+export const StyledFooter = styled.footer`
 	background-color: ${colors.themeGreenLight};
 	padding: 4vw 0;
 
@@ -15,7 +15,7 @@ export const StyledFooter = styled.section`
 		}
 	}
 
-	.footer__section {
+	.section {
 		width: 100%;
 
 		@media (min-width: ${sizes.mdBreakMin}) {
@@ -26,7 +26,7 @@ export const StyledFooter = styled.section`
 			width: 25%;
 		}
 
-		+ .footer__section {
+		+ .section {
 			margin-top: 2.6rem;
 
 			@media (min-width: ${sizes.lgBreakMin}) {
@@ -34,13 +34,13 @@ export const StyledFooter = styled.section`
 			}
 		}
 
-		&.footer__section--aboutUs {
+		&.aboutUs {
 			p {
 				max-width: 35rem;
 			}
 		}
 
-		&.footer__section--links {
+		&.links {
 			@media (min-width: ${sizes.mdBreakMin}) {
 				margin-top: 0;
 				width: 35%;
@@ -50,20 +50,20 @@ export const StyledFooter = styled.section`
 				width: 15%;
 			}
 
-			.links__items {
+			.links-items {
 				display: flex;
 				flex-direction: column;
 			}
 
-			.links__item {
-				+ .links__item {
+			.links-item {
+				+ .links-item {
 					margin-top: 0.5em;
 					color: ${colors.darkTxtColor};
 				}
 			}
 		}
 
-		&.footer__section--socialMedia {
+		&.socialMedia {
 			display: flex;
 			flex-wrap: wrap;
 
@@ -91,7 +91,7 @@ export const StyledFooter = styled.section`
 			}
 		}
 
-		&.footer__section--disclaimer {
+		&.disclaimer {
 			margin-top: 4rem;
 
 			@media (min-width: ${sizes.mdBreakMin}) {
