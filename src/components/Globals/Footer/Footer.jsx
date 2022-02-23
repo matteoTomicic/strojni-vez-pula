@@ -4,6 +4,7 @@ import navLinks from "@constants/navigation.constants";
 import images from "@global/constants/image.constants";
 import SocialIcon from "@components/Globals/Footer/SocialIcon/SocialIcon";
 import ContactCard from "@global/components/Globals/Footer/ContactCard/ContactCard";
+import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -22,9 +23,11 @@ const Footer = () => {
 					<div className="links-items">
 						{navLinks.map((navItem, index) => {
 							return (
-								<a key={index} href={navItem.path} title={navItem.title} className="links-item">
-									{navItem.name}
-								</a>
+								<Link href={navItem.path} key={index}>
+									<a title={navItem.title} className="links-item">
+										{navItem.name}
+									</a>
+								</Link>
 							);
 						})}
 					</div>
