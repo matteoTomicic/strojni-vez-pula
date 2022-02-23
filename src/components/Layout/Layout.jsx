@@ -1,4 +1,5 @@
 import Navigation from "@components/Globals/Navigation/Navigation";
+import Footer from "@components/Globals/Footer/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
 
@@ -10,6 +11,7 @@ const Layout = ({ title, children }) => {
             </Head>
 			<Navigation />
 			{children}
+			<Footer />
 		</>
 	);
 };
