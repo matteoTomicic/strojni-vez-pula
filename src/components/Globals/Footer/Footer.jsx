@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { footerContent } from "@constants/content.constants";
+import content from "@constants/content.constants";
 import { StyledFooter } from "@components/Globals/Footer/Footer.style";
 import navLinks from "@constants/navigation.constants";
 import images from "@global/constants/image.constants";
@@ -12,12 +12,12 @@ const Footer = () => {
 		<StyledFooter className="footer">
 			<div className="container">
 				<div className="section aboutUs">
-					<h3>{footerContent.aboutUsTitle}</h3>
-					<p>{footerContent.aboutUsInfo}</p>
+					<h3>{content.footer.aboutUsTitle}</h3>
+					<p>{content.footer.aboutUsInfo}</p>
 				</div>
 
 				<div className="section links">
-					<h3>{footerContent.linksTitle}</h3>
+					<h3>{content.footer.linksTitle}</h3>
 					<div className="links-items">
 						{navLinks.map((navItem, index) => {
 							return (
@@ -32,14 +32,14 @@ const Footer = () => {
 				</div>
 
 				<div className="section contact">
-					<h3>{footerContent.contactTitle}</h3>
+					<h3>{content.footer.contactTitle}</h3>
 					<ContactCard icon={images.icons.phone} text="+385 98 315 155" />
 					<ContactCard icon={images.icons.mail} text="strojnivezpula@gmail.com" />
 					<ContactCard icon={images.icons.location} text="Ruže Petrović 14, 52100 Pula" />
 				</div>
 
 				<div className="section socialMedia">
-					<h3>{footerContent.socialMediaTitle}</h3>
+					<h3>{content.footer.socialMediaTitle}</h3>
 					<SocialIcon icon={images.icons.facebook} href="https://www.facebook.com/strojnivezpula/" />
 					<SocialIcon icon={images.icons.instagram} href="https://www.instagram.com/strojnivezpula" />
 				</div>

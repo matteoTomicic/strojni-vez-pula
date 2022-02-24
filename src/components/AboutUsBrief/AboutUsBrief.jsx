@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { home, btnContent } from "@constants/content.constants";
+import content from "@constants/content.constants";
 import Image from "next/image";
 import images from "@constants/image.constants";
 import { StyledAboutUsBrief } from "@components/AboutUsBrief/AboutUsBrief.style";
@@ -13,13 +13,13 @@ const AboutUsBrief = () => {
 					<Image {...images.banners.konciZaVezenje} />
 				</div>
 				<div className="AboutUsBrief__content">
-					<h2>{home.content.aboutUsBriefSectionTitle}</h2>
+					<h2>{content.home.aboutUsBriefSectionTitle}</h2>
 					<div className="AboutUsBrief__image AboutUsBrief__image--sp">
 						<Image {...images.banners.konciZaVezenje} />
 					</div>
 					<div className="AboutUsBrief__ctaBox">
-						<p>{home.content.aboutUsBriefSectionInfo}</p>
-						<CtaButton href="/o-nama" className="cta--dark" linkTitle={btnContent.aboutUsBtn} />
+						<p>{content.home.aboutUsBriefSectionInfo}</p>
+						<CtaButton href="/o-nama" className="cta--dark" linkTitle={content.btn.aboutUsBtn} />
 					</div>
 				</div>
 			</div>

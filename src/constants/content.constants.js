@@ -1,5 +1,5 @@
-export const home = {
-	content: {
+const content = {
+	home: {
 		bannerTitle: "Strojni vez",
 		bannerInfo:
 			"Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i šivanjem jastučića, posteljina te raznih modnih dodataka.",
@@ -20,18 +20,19 @@ export const home = {
 		contactUsSectionTitle: "Izrađujemo strojno vezenje na razne vrste promotivnih i svakodnevnih artikala",
 		contactUsSectionInfo: "Radimo na materijalima poput pamuka, kepera, kože, flisa, filca, tkanine za tende i mnogim drugim materijalima",
 	},
+	btn: {
+		contactUsBtn: "Kontaktirajte nas",
+		ourWorkBtn: "Pogledajte naše radove",
+		aboutUsBtn: "Pogledajte više o nama",
+	},
+	footer: {
+		aboutUsTitle: "O nama",
+		linksTitle: "Linkovi",
+		aboutUsInfo:
+			"Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i šivanjem jastučića, posteljina te raznih modnih dodataka.",
+		contactTitle: "Kontakt",
+		socialMediaTitle: "Društvene mreže",
+	},
 };
 
-export const btnContent = {
-	contactUsBtn: "Kontaktirajte nas",
-	ourWorkBtn: "Pogledajte naše radove",
-	aboutUsBtn: "Pogledajte više o nama",
-};
-
-export const footerContent = {
-    aboutUsTitle: "O nama",
-    linksTitle: "Linkovi",
-    aboutUsInfo: "Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i šivanjem jastučića, posteljina te raznih modnih dodataka.",
-    contactTitle: "Kontakt",
-    socialMediaTitle: "Društvene mreže",
-};
+export default content;

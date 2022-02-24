@@ -1,4 +1,4 @@
-import { home } from "@constants/content.constants";
+import content from "@constants/content.constants";
 import { StyledWhatWeDo } from "@components/WhatWeDo/WhatWeDo.style";
 import WhatWeDoCard from "@components/WhatWeDo/WhatWeDoCard/WhatWeDoCard";
 import images from "@constants/image.constants";
@@ -6,21 +6,21 @@ import images from "@constants/image.constants";
 const WhatWeDo = () => (
 	<StyledWhatWeDo>
 		<div className="container">
-			<h2>{home.content.whatWeDoSectionTitle}</h2>
+			<h2>{content.home.whatWeDoSectionTitle}</h2>
 			<WhatWeDoCard
 				image={images.icons.foldedShirt}
-				cardTitle={home.content.whatWeDoFirstCardTitle}
-				cardInfo={home.content.whatWeDoFirstCardInfo}
+				cardTitle={content.home.whatWeDoFirstCardTitle}
+				cardInfo={content.home.whatWeDoFirstCardInfo}
 			/>
 			<WhatWeDoCard
 				image={images.icons.babyShirt}
-				cardTitle={home.content.whatWeDoSecondCardTitle}
-				cardInfo={home.content.whatWeDoSecondCardInfo}
+				cardTitle={content.home.whatWeDoSecondCardTitle}
+				cardInfo={content.home.whatWeDoSecondCardInfo}
 			/>
 			<WhatWeDoCard
 				image={images.icons.towel}
-				cardTitle={home.content.whatWeDoThirdCardTitle}
-				cardInfo={home.content.whatWeDoThirdCardInfo}
+				cardTitle={content.home.whatWeDoThirdCardTitle}
+				cardInfo={content.home.whatWeDoThirdCardInfo}
 			/>
 		</div>
 	</StyledWhatWeDo>
