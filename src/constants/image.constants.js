@@ -25,6 +25,15 @@ const images = {
 			width: 724,
 			height: 509,
 		},
+		slonKonacBanner: {
+			src: "/images/banners/slon-konac-banner.jpg",
+			title: "Slon od konca za vezenje",
+			alt: "Slon od konca za vezenje",
+			layout: "fill",
+			objectFit: "cover",
+			priority: true,
+			quality: 100,
+		},
 	},
 	icons: {
 		foldedShirt: {
