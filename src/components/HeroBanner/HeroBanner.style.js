@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeroBanner = styled.section`
-	position: relative;
+	position: relative;;
 
 	img {
 		filter: brightness(35%);
