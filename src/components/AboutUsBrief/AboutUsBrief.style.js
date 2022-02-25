@@ -24,8 +24,8 @@ export const StyledAboutUsBrief = styled.section`
 			}
 		}
 
-		.AboutUsBrief__image {
-			&--sp {
+		.image {
+			&-sp {
 				margin: 2rem auto;
 				display: flex;
 				max-width: 43rem;
@@ -35,7 +35,7 @@ export const StyledAboutUsBrief = styled.section`
 				}
 			}
 
-			&--dt {
+			&-dt {
 				display: none;
 				width: 45%;
 				align-self: center;
@@ -50,13 +50,13 @@ export const StyledAboutUsBrief = styled.section`
 			}
 		}
 
-		.AboutUsBrief__content {
+		.content {
 			@media (min-width: ${sizes.mdBreakMin}) {
 				width: 50%;
 				align-self: center;
 			}
 
-			.AboutUsBrief__ctaBox {
+			.ctaBox {
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;

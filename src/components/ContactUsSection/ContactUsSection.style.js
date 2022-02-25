@@ -4,7 +4,7 @@ export const StyledContactUsSection = styled.section`
     padding: 0 0 4vw 0;
 
     .container {
-        &--column {
+        &-column {
             align-items: center;
         }
     }

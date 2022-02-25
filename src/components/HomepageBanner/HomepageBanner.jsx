@@ -8,14 +8,14 @@ import Image from "next/image";
 const HomepageBanner = () => (
 	<StyledHomepageBanner>
 		<div className="homepageBanner">
-			<Image {...images.banners.homepageBanner} className="homepageBanner__image" />
+			<Image {...images.banners.homepageBanner} className="image" />
 			<div className="container">
-				<div className="homepageBanner__content">
-					<h1 className="homepageBanner__contentHeading">{content.home.bannerTitle}</h1>
-					<p className="homepageBanner__contentInfo">{content.home.bannerInfo}</p>
-					<div className="homepageBanner__contentCta">
-						<CtaButton href="/kontakt" className="cta--red" linkTitle={content.btn.contactUsBtn} />
-						<CtaButton href="/nasi-radovi" className="cta--white" linkTitle={content.btn.ourWorkBtn} />
+				<div className="content">
+					<h1 className="contentHeading">{content.home.bannerTitle}</h1>
+					<p className="contentInfo">{content.home.bannerInfo}</p>
+					<div className="contentCta">
+						<CtaButton href="/kontakt" className="cta-red" linkTitle={content.btn.contactUsBtn} />
+						<CtaButton href="/nasi-radovi" className="cta-white" linkTitle={content.btn.ourWorkBtn} />
 					</div>
 				</div>
 			</div>

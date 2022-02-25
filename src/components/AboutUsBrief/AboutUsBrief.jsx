@@ -9,17 +9,17 @@ const AboutUsBrief = () => {
 	return (
 		<StyledAboutUsBrief className="AboutUsBrief">
 			<div className="container">
-				<div className="AboutUsBrief__image AboutUsBrief__image--dt">
+				<div className="image image-dt">
 					<Image {...images.banners.konciZaVezenje} />
 				</div>
-				<div className="AboutUsBrief__content">
+				<div className="content">
 					<h2>{content.home.aboutUsBriefSectionTitle}</h2>
-					<div className="AboutUsBrief__image AboutUsBrief__image--sp">
+					<div className="image image-sp">
 						<Image {...images.banners.konciZaVezenje} />
 					</div>
-					<div className="AboutUsBrief__ctaBox">
+					<div className="ctaBox">
 						<p>{content.home.aboutUsBriefSectionInfo}</p>
-						<CtaButton href="/o-nama" className="cta--dark" linkTitle={content.btn.aboutUsBtn} />
+						<CtaButton href="/o-nama" className="cta-dark" linkTitle={content.btn.aboutUsBtn} />
 					</div>
 				</div>
 			</div>
