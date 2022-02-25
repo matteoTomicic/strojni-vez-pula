@@ -4,6 +4,10 @@ import { sizes } from "@global/styles";
 export const StyledInfoCard = styled.section`
 	padding: 4vw 0;
 
+	@media (min-width: ${sizes.mdBreakMin}) {
+		padding: 2vw 0;
+	}
+
 	.container {
 		justify-content: center;
 
