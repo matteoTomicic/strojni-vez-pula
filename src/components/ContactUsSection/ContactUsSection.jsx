@@ -5,10 +5,10 @@ import CtaButton from "@UI/CtaButton";
 const ContactUsSection = () => {
 	return (
 		<StyledContactUsSection>
-			<div className="container container--column">
+			<div className="container container-column">
 				<h2>{content.home.contactUsSectionTitle}</h2>
 				<p>{content.home.contactUsSectionInfo}</p>
-				<CtaButton href="/kontakt" className="cta--red" linkTitle={content.btn.contactUsBtn} />
+				<CtaButton href="/kontakt" className="cta-red" linkTitle={content.btn.contactUsBtn} />
 			</div>
 		</StyledContactUsSection>
 	);

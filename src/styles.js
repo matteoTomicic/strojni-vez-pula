@@ -124,7 +124,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
         padding: 0 3rem;
 
-        &--column {
+        &-column {
             flex-direction: column;
         }
 
@@ -152,16 +152,16 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 0.4em;
         transition: all 0.2s ease-in-out;
 
-        &--red {
+        &-red {
             background: ${colors.red};
             color: white;
         }
 
-        &--white {
+        &-white {
             background: white;
         }
 
-        &--dark {
+        &-dark {
             background: ${colors.darkTxtColor};
             color: white;
         }

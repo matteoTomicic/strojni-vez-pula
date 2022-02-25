@@ -5,29 +5,29 @@ export const StyledHomepageBanner = styled.section`
 	.homepageBanner {
 		position: relative;
 
-		&__image {
+		.image {
 			filter: brightness(35%);
 		}
 
-		&__content {
+		.content {
 			position: relative;
 			z-index: 999;
 			padding: 7vw 0;
 		}
 
-		&__contentHeading {
+		.contentHeading {
 				margin-bottom: 4vw;
 				color: white;
 		}
 
-		&__contentInfo {
+		.contentInfo {
 				margin-bottom: 5vw;
 				line-height: 1.3em;
 				color: white;
 				width: clamp(31.5rem, 55vw, 65rem);
 		}
 
-		&__contentCta {
+		.contentCta {
 				display: flex;
 				flex-wrap: wrap;
 				max-width: 36rem;
