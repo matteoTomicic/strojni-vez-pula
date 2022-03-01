@@ -1,4 +1,10 @@
 const content = {
+	path: {
+		home: "/",
+		aboutUs: "/o-nama",
+		ourWork: "/nasi-radovi",
+		contact: "/kontakt",
+	},
 	home: {
 		bannerTitle: "Strojni vez",
 		bannerInfo:
@@ -30,6 +36,9 @@ const content = {
 		povijestTitle: "Povijest",
 		povijestInfo:
 			"Radno iskustvo stekli smo na mašinama za strojni vez u jednoj od najpoznatijih kompanija za proizvodnju odjeće u Europi. Nakon toliko godina rada, odlučili smo se na otvaranje vlastitog obrta kako bi tržištu omogućili proizvodnju personaliziranog veza.",
+		infoCardCtaTitle: "Stalo nam je do onog čime se bavimo",
+		infoCardCtaInfo:
+			"Iznimno smo ponosni što od prvog dana poslovanja koristimo Madeira konce, s obzirom da je Madeira proizvođač koji održivost stavlja na prvo mjesto pri kreiranju svojih proizvoda. U svakom koraku proizvodnje počevši od same nabavke ekološki prihvatljivih materijala te korištenja procesa koji minimiziraju ugljični otisak te stvaraju proizvode koji su certificirani kao organski i održivi. Osim toga, sve ostatke materijala koristimo u svrhu kreiranja drugih proizvoda, poput gumica za kosu.",
 	},
 	btn: {
 		contactUsBtn: "Kontaktirajte nas",

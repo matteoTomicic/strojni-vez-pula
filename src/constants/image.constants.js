@@ -55,6 +55,13 @@ const images = {
 			width: 565,
 			height: 355,
 		},
+		vezenje: {
+			src: "/images/aboutUs/Vezenje.jpg",
+			title: "Vezenje",
+			alt: "Vezenje",
+			width: 583,
+			height: 391,
+		},
 	},
 	icons: {
 		foldedShirt: {

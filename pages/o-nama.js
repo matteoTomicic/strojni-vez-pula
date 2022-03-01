@@ -3,6 +3,7 @@ import images from "@constants/image.constants";
 import content from "@constants/content.constants";
 import HeroBanner from "@components/HeroBanner/HeroBanner";
 import InfoCard from "@components/InfoCard/InfoCard";
+import InfoCardCta from "@components/InfoCardCta/InfoCardCta";
 
 const Home = () => {
 	return (
@@ -27,6 +28,14 @@ const Home = () => {
 				cardTitle={content.aboutUs.povijestTitle}
 				cardInfo={content.aboutUs.povijestInfo}
 			/>
+			<InfoCardCta
+				className="rtl"
+                image={images.banners.vezenje}
+                cardTitle={content.aboutUs.infoCardCtaTitle}
+                cardInfo={content.aboutUs.infoCardCtaInfo}
+                linkTo={content.path.contact}
+                ctaText={content.btn.contactUsBtn}
+            />
 		</Layout>
 	);
 };

@@ -17,7 +17,7 @@ export const StyledInfoCardCta = styled.section`
 		text-align: center;
 
 		@media (min-width: ${sizes.mdBreakMin}) {
-			max-width: 48rem;
+			max-width: 52rem;
 			margin: 0;
 			text-align: left;
 		}
@@ -82,6 +82,20 @@ export const StyledInfoCardCta = styled.section`
 				@media (min-width: ${sizes.mdBreakMin}) {
 					margin-top: 0;
 				}
+			}
+		}
+	}
+
+	&.rtl {
+		.content {
+			@media (min-width: ${sizes.mdBreakMin}) {
+				order: 1;
+			}
+		}
+
+		.image {
+			@media (min-width: ${sizes.mdBreakMin}) {
+				order: 2;
 			}
 		}
 	}

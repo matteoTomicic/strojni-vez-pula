@@ -16,6 +16,7 @@ const Home = () => {
                 image={images.banners.konciZaVezenje}
                 cardTitle={content.home.infoCardCtaTitle}
                 cardInfo={content.home.infoCardCtaInfo}
+                linkTo={content.path.aboutUs}
                 ctaText={content.btn.aboutUsBtn}
             />
             <LatestWorkSection />

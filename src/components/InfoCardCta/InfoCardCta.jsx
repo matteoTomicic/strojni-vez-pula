@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 const InfoCardCta = (props) => {
 	return (
-		<StyledInfoCardCta>
+		<StyledInfoCardCta className={props.className}>
 			<div className="container">
 				<div className="image image-dt">
 					<Image {...props.image} />
@@ -19,7 +19,7 @@ const InfoCardCta = (props) => {
 					</div>
 					<div className="ctaBox">
 						<p>{props.cardInfo}</p>
-						<CtaButton href="/o-nama" className="cta-dark" linkTitle={props.ctaText} />
+						<CtaButton href={props.linkTo} className="cta-dark" linkTitle={props.ctaText} />
 					</div>
 				</div>
 			</div>
@@ -28,9 +28,11 @@ const InfoCardCta = (props) => {
 };
 
 InfoCardCta.propTypes = {
+	className: PropTypes.string,
 	image: PropTypes.object.isRequired,
 	cardTitle: PropTypes.string.isRequired,
 	cardInfo: PropTypes.string.isRequired,
+	linkTo: PropTypes.string.isRequired,
 	ctaText: PropTypes.string.isRequired,
 };
 
