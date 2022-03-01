@@ -13,12 +13,23 @@ const content = {
 		whatWeDoThirdCardTitle: "Personalizacija opreme za hotele, apartmane i ugostiteljske objekte",
 		whatWeDoThirdCardInfo:
 			"Ponekad sitnice puno znače, zato pružite svojim gostima jedinstveno iskustvo te se pobrinite da im boravak u Vašim objektima bude upečatljiv. Personalizacijom ručnika, posteljina ili pak presvlaka i jastučiča za stolice osigurati ćete prepoznatljivost Vašeg brenda.",
-		aboutUsBriefSectionTitle: "Preko 20 godina iskustva strojnog vezenja.",
-		aboutUsBriefSectionInfo:
+		infoCardCtaTitle: "Preko 20 godina iskustva strojnog vezenja.",
+		infoCardCtaInfo:
 			"Strojno vezenje radimo sa Ricoma mašinama, jednim od najpoznatihjih brendova na tržištu. Osim toga, radimo sa najkvalitetnijim Madeira koncima koji su specijalizirani za strojno vezenje te se ne ispiru niti pucaju tijekom pranja, već traju.",
 		latestWorkSectionTitle: "Naši najnoviji radovi",
 		contactUsSectionTitle: "Izrađujemo strojno vezenje na razne vrste promotivnih i svakodnevnih artikala",
 		contactUsSectionInfo: "Radimo na materijalima poput pamuka, kepera, kože, flisa, filca, tkanine za tende i mnogim drugim materijalima",
+	},
+	aboutUs: {
+		aboutUsCardTitle: "Preko 20 godina iskustva strojnog veza",
+		aboutUsCardInfo:
+			"Obrt koji se bavi izradom programa za vezenje te strojnim vezenjem na sve vrste tkanina, odjevne predmete, kape, ručnike, posteljinu te stolnjake, a osim toga bavimo se i šivanjem jastučića, posteljina te raznih modnih dodataka.",
+		strojeviTitle: "Strojevi",
+		strojeviInfo:
+			"Mašina za strojno vezenje koju koristimo je Ricoma MT-1502, te je to mašina sa dvije glave koje svaka sadrže po 15 igala, što nam omogućava duplo brži rad. Ujedno vez programiramo u COREL programima specijaliziranim za strojno vezenje. Osim toga, za krojenje i proizodnju raznih dodataka koristimo JACK E4S-4-M03/333 industrijski šivaći stroj te JACK W4-D01GBX356 industrijski šivaći stroj 'iberdek'.",
+		povijestTitle: "Povijest",
+		povijestInfo:
+			"Radno iskustvo stekli smo na mašinama za strojni vez u jednoj od najpoznatijih kompanija za proizvodnju odjeće u Europi. Nakon toliko godina rada, odlučili smo se na otvaranje vlastitog obrta kako bi tržištu omogućili proizvodnju personaliziranog veza.",
 	},
 	btn: {
 		contactUsBtn: "Kontaktirajte nas",
