@@ -5,7 +5,7 @@ import HeroBanner from "@components/HeroBanner/HeroBanner";
 import InfoCard from "@components/InfoCard/InfoCard";
 import InfoCardCta from "@components/InfoCardCta/InfoCardCta";
 
-const Home = () => {
+const AboutUs = () => {
 	return (
 		<Layout title="O nama | Strojni vez Pula">
 			<HeroBanner
@@ -40,4 +40,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default AboutUs;
