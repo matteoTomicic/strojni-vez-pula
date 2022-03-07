@@ -62,6 +62,13 @@ const images = {
 			width: 583,
 			height: 391,
 		},
+		kontakt: {
+			src: "/images/contact/kontakt.jpg",
+			title: "Kontakt",
+			alt: "Kontakt",
+			width: 588,
+			height: 391,
+		},
 	},
 	icons: {
 		foldedShirt: {
