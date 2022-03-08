@@ -33,11 +33,9 @@ export const StyledContactCardMini = styled.div`
 		}
 	}
 
-	p,
-	a {
+	p {
 		margin-top: 4em;
 		font-weight: bold;
-		display: flex;
 		color: ${colors.lightTxtColor};
 		text-decoration: underline;
 	}

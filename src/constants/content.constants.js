@@ -4,6 +4,11 @@ const content = {
 		aboutUs: "/o-nama",
 		ourWork: "/nasi-radovi",
 		contact: "/kontakt",
+		mailto: "mailto:strojnivezpula@gmail.com",
+		tel: "tel:0038598315155",
+		mailtoMe: "mailto:tomicic.matteo7@gmail.com",
+		facebookPage: "https://www.facebook.com/strojnivezpula/",
+		instagramPage: "https://www.instagram.com/strojnivezpula"
 	},
 	home: {
 		bannerTitle: "Strojni vez",

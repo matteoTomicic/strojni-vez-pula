@@ -8,7 +8,7 @@ const ContactUsSection = () => {
 			<div className="container container-column">
 				<h2>{content.home.contactUsSectionTitle}</h2>
 				<p>{content.home.contactUsSectionInfo}</p>
-				<CtaButton href="/kontakt" className="cta-red" linkTitle={content.btn.contactUsBtn} />
+				<CtaButton href={content.path.contact} className="cta-red" linkTitle={content.btn.contactUsBtn} />
 			</div>
 		</StyledContactUsSection>
 	);

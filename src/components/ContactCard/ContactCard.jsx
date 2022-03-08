@@ -14,7 +14,7 @@ const ContactCard = () => {
 				<div className="text-wrapper">
 					<h1>{content.contact.contactCardTitle}</h1>
 					<p>{content.contact.contactCardInfo}</p>
-					<a href="mailto:strojnivezpula@gmail.com>">{content.contact.contactCardMail}</a>
+					<a href={content.path.mailto}>{content.contact.contactCardMail}</a>
 					<p>{content.contact.contactCardDisclaimer}</p>
 				</div>
 			</div>

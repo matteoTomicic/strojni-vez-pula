@@ -33,20 +33,20 @@ const Footer = () => {
 
 				<div className="section contact">
 					<h3>{content.footer.contactTitle}</h3>
-					<ContactCard cardType="link" href="tel:003859831515" icon={images.icons.phone} text={content.contact.contactNo} />
-					<ContactCard cardType="link" href="mailto:strojnivezpula@gmail.com" icon={images.icons.mail} text={content.contact.contactCardMail} />
-					<ContactCard cardType="text" icon={images.icons.location} text={content.contact.contactAdress} />
+					<ContactCard href={content.path.tel} icon={images.icons.phone} text={content.contact.contactNo} />
+					<ContactCard href={content.path.mailto} icon={images.icons.mail} text={content.contact.contactCardMail} />
+					<ContactCard icon={images.icons.location} text={content.contact.contactAdress} />
 				</div>
 
 				<div className="section socialMedia">
 					<h3>{content.footer.socialMediaTitle}</h3>
-					<SocialIcon icon={images.icons.facebook} href="https://www.facebook.com/strojnivezpula/" />
-					<SocialIcon icon={images.icons.instagram} href="https://www.instagram.com/strojnivezpula" />
+					<SocialIcon icon={images.icons.facebook} href={content.path.facebookPage} />
+					<SocialIcon icon={images.icons.instagram} href={content.path.instagramPage} />
 				</div>
 
 				<div className="section disclaimer">
 					<p>
-						&#169; 2022 Strojni vez Pula | Sva prava pridržana | Izradili <a href="mailto:tomicic.matteo7@gmail.com">M&K</a>
+						&#169; 2022 Strojni vez Pula | Sva prava pridržana | Izradili <a href={content.path.mailtoMe}>M&K</a>
 					</p>
 				</div>
 			</div>

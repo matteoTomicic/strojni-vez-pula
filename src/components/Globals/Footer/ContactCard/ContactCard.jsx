@@ -4,12 +4,12 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 
 const ContactInfo = (props) => {
-	const checkCardType = () => (props.cardType === "link" ? <a href={props.href}>{props.text}</a> : props.cardType === "text" ? <p>{props.text}</p> : null);
+	const generateCardType = () => (props.href ? <a href={props.href}>{props.text}</a> : props.text);
 
 	return (
 		<StyledContactCard>
 			<Image {...props.icon} />
-			{checkCardType()}
+			<p>{generateCardType()}</p>
 		</StyledContactCard>
 	);
 };
@@ -17,7 +17,6 @@ const ContactInfo = (props) => {
 export default ContactInfo;
 
 ContactInfo.propTypes = {
-	cardType: PropTypes.string.isRequired,
 	icon: PropTypes.object.isRequired,
 	text: PropTypes.string.isRequired,
 	href: PropTypes.string,

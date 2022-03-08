@@ -7,9 +7,9 @@ const ContactCardMiniWrapper = () => {
 	return (
 		<StyledContactCardMiniWrapper>
 			<div className="container">
-				<ContactCardMini cardType="link" href="mailto:strojnivezpula@gmail.com" cardText={content.contact.contactCardMail} icon={images.icons.mail} />
-				<ContactCardMini cardType="link" href="tel:0038598315155" cardText={content.contact.contactNo} icon={images.icons.phone} />
-				<ContactCardMini cardType="text" cardText={content.contact.contactAdress} icon={images.icons.location} />
+				<ContactCardMini href={content.path.mailto} cardText={content.contact.contactCardMail} icon={images.icons.mail} />
+				<ContactCardMini href={content.path.tel} cardText={content.contact.contactNo} icon={images.icons.phone} />
+				<ContactCardMini cardText={content.contact.contactAdress} icon={images.icons.location} />
 			</div>
 		</StyledContactCardMiniWrapper>
 	);
