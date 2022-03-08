@@ -33,8 +33,12 @@ export const StyledContactCardMini = styled.div`
 		}
 	}
 
-	p {
+	p,
+	a {
 		margin-top: 4em;
 		font-weight: bold;
+		display: flex;
+		color: ${colors.lightTxtColor};
+		text-decoration: underline;
 	}
 `;

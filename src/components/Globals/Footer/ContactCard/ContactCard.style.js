@@ -9,7 +9,8 @@ export const StyledContactCard = styled.div`
 	display: flex;
 	align-items: center;
 
-	p {
+	p,
+	a {
 		color: ${colors.darkTxtColor};
 		margin-left: 0.7em;
 	}

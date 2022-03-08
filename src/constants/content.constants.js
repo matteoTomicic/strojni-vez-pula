@@ -45,6 +45,8 @@ const content = {
 		contactCardInfo: "Imate ideje koje želite pretočiti u stvarnost? Javite nam se.",
 		contactCardMail: "strojnivezpula@gmail.com",
 		contactCardDisclaimer: "Na poruku ćemo odgovoriti u najbržem mogućem roku.",
+		contactNo: "+385 98 315 155",
+		contactAdress: "Ruže Petrović 14, 52100 Pula"
 	},
 	btn: {
 		contactUsBtn: "Kontaktirajte nas",

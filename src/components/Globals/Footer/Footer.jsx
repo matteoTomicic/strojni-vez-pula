@@ -33,9 +33,9 @@ const Footer = () => {
 
 				<div className="section contact">
 					<h3>{content.footer.contactTitle}</h3>
-					<ContactCard icon={images.icons.phone} text="+385 98 315 155" />
-					<ContactCard icon={images.icons.mail} text="strojnivezpula@gmail.com" />
-					<ContactCard icon={images.icons.location} text="Ruže Petrović 14, 52100 Pula" />
+					<ContactCard cardType="link" href="tel:003859831515" icon={images.icons.phone} text={content.contact.contactNo} />
+					<ContactCard cardType="link" href="mailto:strojnivezpula@gmail.com" icon={images.icons.mail} text={content.contact.contactCardMail} />
+					<ContactCard cardType="text" icon={images.icons.location} text={content.contact.contactAdress} />
 				</div>
 
 				<div className="section socialMedia">
