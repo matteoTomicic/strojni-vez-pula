@@ -32,7 +32,7 @@ export const StyledContactCard = styled.section`
         justify-content: center;
 
         @media (min-width: ${sizes.mdBreakMin}) {
-            width: 48%;
+            width: 45%;
         }
     }
 

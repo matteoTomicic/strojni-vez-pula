@@ -14,8 +14,8 @@ const HomepageBanner = () => (
 					<h1 className="contentHeading">{content.home.bannerTitle}</h1>
 					<p className="contentInfo">{content.home.bannerInfo}</p>
 					<div className="contentCta">
-						<CtaButton href="/kontakt" className="cta-red" linkTitle={content.btn.contactUsBtn} />
-						<CtaButton href="/nasi-radovi" className="cta-white" linkTitle={content.btn.ourWorkBtn} />
+						<CtaButton href={content.path.contact} className="cta-red" linkTitle={content.btn.contactUsBtn} />
+						<CtaButton href={content.path.ourWork} className="cta-white" linkTitle={content.btn.ourWorkBtn} />
 					</div>
 				</div>
 			</div>

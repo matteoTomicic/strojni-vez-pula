@@ -4,6 +4,11 @@ const content = {
 		aboutUs: "/o-nama",
 		ourWork: "/nasi-radovi",
 		contact: "/kontakt",
+		mailto: "mailto:strojnivezpula@gmail.com",
+		tel: "tel:0038598315155",
+		mailtoMe: "mailto:tomicic.matteo7@gmail.com",
+		facebookPage: "https://www.facebook.com/strojnivezpula/",
+		instagramPage: "https://www.instagram.com/strojnivezpula"
 	},
 	home: {
 		bannerTitle: "Strojni vez",
@@ -45,6 +50,8 @@ const content = {
 		contactCardInfo: "Imate ideje koje želite pretočiti u stvarnost? Javite nam se.",
 		contactCardMail: "strojnivezpula@gmail.com",
 		contactCardDisclaimer: "Na poruku ćemo odgovoriti u najbržem mogućem roku.",
+		contactNo: "+385 98 315 155",
+		contactAdress: "Ruže Petrović 14, 52100 Pula"
 	},
 	btn: {
 		contactUsBtn: "Kontaktirajte nas",
