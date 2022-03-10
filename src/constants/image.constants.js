@@ -34,6 +34,15 @@ const images = {
 			priority: true,
 			quality: 100,
 		},
+		vezBanner: {
+			src: "/images/banners/vez-banner.jpg",
+			title: "Banner vez",
+			alt: "Banner vez",
+			layout: "fill",
+			objectFit: "cover",
+			priority: true,
+			quality: 100,
+		},
 		konci: {
 			src: "/images/aboutUs/Konci.jpg",
 			title: "Konci",
