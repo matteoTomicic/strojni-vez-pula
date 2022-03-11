@@ -45,6 +45,16 @@ const content = {
 		infoCardCtaInfo:
 			"Iznimno smo ponosni što od prvog dana poslovanja koristimo Madeira konce, s obzirom da je Madeira proizvođač koji održivost stavlja na prvo mjesto pri kreiranju svojih proizvoda. U svakom koraku proizvodnje počevši od same nabavke ekološki prihvatljivih materijala te korištenja procesa koji minimiziraju ugljični otisak te stvaraju proizvode koji su certificirani kao organski i održivi. Osim toga, sve ostatke materijala koristimo u svrhu kreiranja drugih proizvoda, poput gumica za kosu.",
 	},
+	ourWork: {
+		vezovi: "Vezovi",
+		ekoVrecice: "Eko vrećice",
+		poklonPaketi: "Poklon paketi",
+		rucnici: "Ručnici",
+		trakeGumiceZaKosu: "Trake i gumice za kosu",
+		ruksaci: "Ruksaci",
+		vreciceSLavandom: "Vrećice s lavandom",
+		ostalo: "Ostalo",
+	},
 	contact: {
 		contactCardTitle: "Kontaktirajte nas",
 		contactCardInfo: "Imate ideje koje želite pretočiti u stvarnost? Javite nam se.",

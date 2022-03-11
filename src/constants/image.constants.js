@@ -278,6 +278,27 @@ const images = {
 			width: 240,
 			height: 240,
 		},
+		poklonPaketi: {
+			src: "/images/ourWork/products/poklon-paketi.jpg",
+			title: "Poklon paketi",
+			alt: "Poklon paketi",
+			width: 240,
+			height: 240,
+		},
+		rucnici: {
+			src: "/images/ourWork/products/rucnici.jpg",
+			title: "Ručnici",
+			alt: "Ručnici",
+			width: 240,
+			height: 240,
+		},
+		vrecicaLavanda: {
+			src: "/images/ourWork/products/vrecica-lavanda.jpg",
+			title: "Vrećica sa lavandom",
+			alt: "Vrećica sa lavandom",
+			width: 240,
+			height: 240,
+		},
 	},
 };
 
