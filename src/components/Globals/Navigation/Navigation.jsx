@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useRouter } from "next/router";
 import { useState } from "react";
-import { StyledNavigation } from "@components/Globals/Navigation/Navigation.style";
+import { useRouter } from "next/router";
 import Image from "next/image";
+
+import { StyledNavigation } from "@components/Globals/Navigation/Navigation.style";
 import images from "@constants/image.constants";
 import navLinks from "@constants/navigation.constants";
 

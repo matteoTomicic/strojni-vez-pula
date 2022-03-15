@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledHeroBanner } from "@components/HeroBanner/HeroBanner.style";
 import Image from "next/image";
+
 import PropTypes from "prop-types";
+
+import { StyledHeroBanner } from "@components/HeroBanner/HeroBanner.style";
 
 const HeroBanner = (props) => {
 	return (

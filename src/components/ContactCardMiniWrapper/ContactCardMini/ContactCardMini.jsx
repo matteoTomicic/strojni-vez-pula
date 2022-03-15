@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledContactCardMini } from "@components/ContactCardMiniWrapper/ContactCardMini/ContactCardMini.style";
 import Image from "next/image";
+
 import PropTypes from "prop-types";
+
+import { StyledContactCardMini } from "@components/ContactCardMiniWrapper/ContactCardMini/ContactCardMini.style";
 
 const ContactCardMini = (props) => {
 	const generateCardType = () => (props.href ? <a href={props.href}>{props.cardText}</a> : props.cardText);

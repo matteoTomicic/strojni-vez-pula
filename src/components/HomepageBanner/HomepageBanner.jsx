@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
+import Image from "next/image";
+
 import content from "@constants/content.constants";
 import { StyledHomepageBanner } from "@components/HomepageBanner/HomepageBanner.style";
 import CtaButton from "@UI/CtaButton";
 import images from "@constants/image.constants";
-import Image from "next/image";
 
 const HomepageBanner = () => (
 	<StyledHomepageBanner>
