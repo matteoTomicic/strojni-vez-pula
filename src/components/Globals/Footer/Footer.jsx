@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
+import Link from "next/link";
+
 import content from "@constants/content.constants";
 import { StyledFooter } from "@components/Globals/Footer/Footer.style";
 import navLinks from "@constants/navigation.constants";
 import images from "@global/constants/image.constants";
 import SocialIcon from "@components/Globals/Footer/SocialIcon/SocialIcon";
 import ContactCard from "@global/components/Globals/Footer/ContactCard/ContactCard";
-import Link from "next/link";
 
 const Footer = () => {
 	return (

@@ -44,6 +44,10 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1.6rem;
         font-family: ${fonts.font};
         background: ${colors.themeGrey};
+
+        &.modal-shown {
+            overflow: hidden;
+        }
     }
 
     h1 {

@@ -34,6 +34,15 @@ const images = {
 			priority: true,
 			quality: 100,
 		},
+		vezBanner: {
+			src: "/images/banners/vez-banner.jpg",
+			title: "Banner vez",
+			alt: "Banner vez",
+			layout: "fill",
+			objectFit: "cover",
+			priority: true,
+			quality: 100,
+		},
 		konci: {
 			src: "/images/aboutUs/Konci.jpg",
 			title: "Konci",
@@ -268,6 +277,739 @@ const images = {
 			alt: "Vez na majice i kape",
 			width: 240,
 			height: 240,
+		},
+		poklonPaketi: {
+			src: "/images/ourWork/products/poklon-paketi.jpg",
+			title: "Poklon paketi",
+			alt: "Poklon paketi",
+			width: 240,
+			height: 240,
+		},
+		rucnici: {
+			src: "/images/ourWork/products/rucnici.jpg",
+			title: "Ručnici",
+			alt: "Ručnici",
+			width: 240,
+			height: 240,
+		},
+		vrecicaLavanda: {
+			src: "/images/ourWork/products/vrecica-lavanda.jpg",
+			title: "Vrećica sa lavandom",
+			alt: "Vrećica sa lavandom",
+			width: 240,
+			height: 240,
+		},
+	},
+	products: {
+		vezovi1: {
+			src: "/images/ourWork/vezovi1.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi2: {
+			src: "/images/ourWork/vezovi2.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi3: {
+			src: "/images/ourWork/vezovi3.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi4: {
+			src: "/images/ourWork/vezovi4.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi5: {
+			src: "/images/ourWork/vezovi5.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi6: {
+			src: "/images/ourWork/vezovi6.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi7: {
+			src: "/images/ourWork/vezovi7.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi8: {
+			src: "/images/ourWork/vezovi8.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi9: {
+			src: "/images/ourWork/vezovi9.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi10: {
+			src: "/images/ourWork/vezovi10.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi11: {
+			src: "/images/ourWork/vezovi11.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi12: {
+			src: "/images/ourWork/vezovi12.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi13: {
+			src: "/images/ourWork/vezovi13.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi14: {
+			src: "/images/ourWork/vezovi14.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi15: {
+			src: "/images/ourWork/vezovi15.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi16: {
+			src: "/images/ourWork/vezovi16.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi17: {
+			src: "/images/ourWork/vezovi17.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi18: {
+			src: "/images/ourWork/vezovi18.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi19: {
+			src: "/images/ourWork/vezovi19.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vez_eko_vrecica1: {
+			src: "/images/ourWork/vez_eko_vrecica1.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica2: {
+			src: "/images/ourWork/vez_eko_vrecica2.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica3: {
+			src: "/images/ourWork/vez_eko_vrecica3.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica4: {
+			src: "/images/ourWork/vez_eko_vrecica4.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica5: {
+			src: "/images/ourWork/vez_eko_vrecica5.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica6: {
+			src: "/images/ourWork/vez_eko_vrecica6.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica7: {
+			src: "/images/ourWork/vez_eko_vrecica7.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica8: {
+			src: "/images/ourWork/vez_eko_vrecica8.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica9: {
+			src: "/images/ourWork/vez_eko_vrecica9.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica10: {
+			src: "/images/ourWork/vez_eko_vrecica10.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica11: {
+			src: "/images/ourWork/vez_eko_vrecica11.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica12: {
+			src: "/images/ourWork/vez_eko_vrecica12.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica13: {
+			src: "/images/ourWork/vez_eko_vrecica13.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica14: {
+			src: "/images/ourWork/vez_eko_vrecica14.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica15: {
+			src: "/images/ourWork/vez_eko_vrecica15.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica16: {
+			src: "/images/ourWork/vez_eko_vrecica16.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica17: {
+			src: "/images/ourWork/vez_eko_vrecica17.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica18: {
+			src: "/images/ourWork/vez_eko_vrecica18.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica19: {
+			src: "/images/ourWork/vez_eko_vrecica19.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_poklon_paket1: {
+			src: "/images/ourWork/vez_poklon_paket1.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket2: {
+			src: "/images/ourWork/vez_poklon_paket2.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket3: {
+			src: "/images/ourWork/vez_poklon_paket3.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket4: {
+			src: "/images/ourWork/vez_poklon_paket4.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket5: {
+			src: "/images/ourWork/vez_poklon_paket5.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket6: {
+			src: "/images/ourWork/vez_poklon_paket6.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket7: {
+			src: "/images/ourWork/vez_poklon_paket7.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket8: {
+			src: "/images/ourWork/vez_poklon_paket8.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket9: {
+			src: "/images/ourWork/vez_poklon_paket9.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket10: {
+			src: "/images/ourWork/vez_poklon_paket10.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket11: {
+			src: "/images/ourWork/vez_poklon_paket11.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket12: {
+			src: "/images/ourWork/vez_poklon_paket12.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket13: {
+			src: "/images/ourWork/vez_poklon_paket13.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket14: {
+			src: "/images/ourWork/vez_poklon_paket14.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket15: {
+			src: "/images/ourWork/vez_poklon_paket15.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket16: {
+			src: "/images/ourWork/vez_poklon_paket16.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket17: {
+			src: "/images/ourWork/vez_poklon_paket17.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket18: {
+			src: "/images/ourWork/vez_poklon_paket18.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket19: {
+			src: "/images/ourWork/vez_poklon_paket19.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket20: {
+			src: "/images/ourWork/vez_poklon_paket20.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_rucnici1: {
+			src: "/images/ourWork/vez_rucnici1.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici2: {
+			src: "/images/ourWork/vez_rucnici2.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici3: {
+			src: "/images/ourWork/vez_rucnici3.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici4: {
+			src: "/images/ourWork/vez_rucnici4.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici5: {
+			src: "/images/ourWork/vez_rucnici5.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici6: {
+			src: "/images/ourWork/vez_rucnici6.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici7: {
+			src: "/images/ourWork/vez_rucnici7.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici8: {
+			src: "/images/ourWork/vez_rucnici8.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici9: {
+			src: "/images/ourWork/vez_rucnici9.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici10: {
+			src: "/images/ourWork/vez_rucnici10.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici11: {
+			src: "/images/ourWork/vez_rucnici11.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici12: {
+			src: "/images/ourWork/vez_rucnici12.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici13: {
+			src: "/images/ourWork/vez_rucnici13.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici14: {
+			src: "/images/ourWork/vez_rucnici14.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici15: {
+			src: "/images/ourWork/vez_rucnici15.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici16: {
+			src: "/images/ourWork/vez_rucnici16.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici17: {
+			src: "/images/ourWork/vez_rucnici17.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici18: {
+			src: "/images/ourWork/vez_rucnici18.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici19: {
+			src: "/images/ourWork/vez_rucnici19.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_rucnici20: {
+			src: "/images/ourWork/vez_rucnici20.jpg",
+			title: "Vez ručnici",
+			alt: "Vez ručnici",
+		},
+		vez_trake_gumice1: {
+			src: "/images/ourWork/vez_trake_gumice1.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice2: {
+			src: "/images/ourWork/vez_trake_gumice2.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice3: {
+			src: "/images/ourWork/vez_trake_gumice3.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice4: {
+			src: "/images/ourWork/vez_trake_gumice4.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice5: {
+			src: "/images/ourWork/vez_trake_gumice5.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice6: {
+			src: "/images/ourWork/vez_trake_gumice6.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice7: {
+			src: "/images/ourWork/vez_trake_gumice7.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice8: {
+			src: "/images/ourWork/vez_trake_gumice8.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice9: {
+			src: "/images/ourWork/vez_trake_gumice9.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice10: {
+			src: "/images/ourWork/vez_trake_gumice10.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice11: {
+			src: "/images/ourWork/vez_trake_gumice11.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice12: {
+			src: "/images/ourWork/vez_trake_gumice12.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice13: {
+			src: "/images/ourWork/vez_trake_gumice13.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice14: {
+			src: "/images/ourWork/vez_trake_gumice14.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice15: {
+			src: "/images/ourWork/vez_trake_gumice15.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice16: {
+			src: "/images/ourWork/vez_trake_gumice16.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice17: {
+			src: "/images/ourWork/vez_trake_gumice17.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice18: {
+			src: "/images/ourWork/vez_trake_gumice18.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice19: {
+			src: "/images/ourWork/vez_trake_gumice19.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_trake_gumice20: {
+			src: "/images/ourWork/vez_trake_gumice20.jpg",
+			title: "Vez traka i gumica za kosu",
+			alt: "Vez traka i gumica za kosu",
+		},
+		vez_ruksaci1: {
+			src: "/images/ourWork/vez_ruksaci1.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci2: {
+			src: "/images/ourWork/vez_ruksaci2.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci3: {
+			src: "/images/ourWork/vez_ruksaci3.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci4: {
+			src: "/images/ourWork/vez_ruksaci4.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci5: {
+			src: "/images/ourWork/vez_ruksaci5.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci6: {
+			src: "/images/ourWork/vez_ruksaci6.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci7: {
+			src: "/images/ourWork/vez_ruksaci7.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci8: {
+			src: "/images/ourWork/vez_ruksaci8.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci9: {
+			src: "/images/ourWork/vez_ruksaci9.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci10: {
+			src: "/images/ourWork/vez_ruksaci10.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci11: {
+			src: "/images/ourWork/vez_ruksaci11.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci12: {
+			src: "/images/ourWork/vez_ruksaci12.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci13: {
+			src: "/images/ourWork/vez_ruksaci13.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci14: {
+			src: "/images/ourWork/vez_ruksaci14.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci15: {
+			src: "/images/ourWork/vez_ruksaci15.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci16: {
+			src: "/images/ourWork/vez_ruksaci16.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci17: {
+			src: "/images/ourWork/vez_ruksaci17.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci18: {
+			src: "/images/ourWork/vez_ruksaci18.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci19: {
+			src: "/images/ourWork/vez_ruksaci19.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci20: {
+			src: "/images/ourWork/vez_ruksaci20.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_vrecice_lavanda1: {
+			src: "/images/ourWork/vez_vrecice_lavanda1.jpg",
+			title: "Vez vrećice s lavandom",
+			alt: "Vez vrećice s lavandom",
+		},
+		vez_vrecice_lavanda2: {
+			src: "/images/ourWork/vez_vrecice_lavanda2.jpg",
+			title: "Vez vrećice s lavandom",
+			alt: "Vez vrećice s lavandom",
+		},
+		vez_vrecice_lavanda3: {
+			src: "/images/ourWork/vez_vrecice_lavanda3.jpg",
+			title: "Vez vrećice s lavandom",
+			alt: "Vez vrećice s lavandom",
+		},
+		vez_vrecice_lavanda4: {
+			src: "/images/ourWork/vez_vrecice_lavanda4.jpg",
+			title: "Vez vrećice s lavandom",
+			alt: "Vez vrećice s lavandom",
+		},
+		vez_ostalo1: {
+			src: "/images/ourWork/vez_ostalo1.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo2: {
+			src: "/images/ourWork/vez_ostalo2.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo3: {
+			src: "/images/ourWork/vez_ostalo3.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo4: {
+			src: "/images/ourWork/vez_ostalo4.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo5: {
+			src: "/images/ourWork/vez_ostalo5.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo6: {
+			src: "/images/ourWork/vez_ostalo6.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo7: {
+			src: "/images/ourWork/vez_ostalo7.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo8: {
+			src: "/images/ourWork/vez_ostalo8.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo9: {
+			src: "/images/ourWork/vez_ostalo9.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo10: {
+			src: "/images/ourWork/vez_ostalo10.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo11: {
+			src: "/images/ourWork/vez_ostalo11.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo12: {
+			src: "/images/ourWork/vez_ostalo12.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo13: {
+			src: "/images/ourWork/vez_ostalo13.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo14: {
+			src: "/images/ourWork/vez_ostalo14.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo15: {
+			src: "/images/ourWork/vez_ostalo15.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo16: {
+			src: "/images/ourWork/vez_ostalo16.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo17: {
+			src: "/images/ourWork/vez_ostalo17.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo18: {
+			src: "/images/ourWork/vez_ostalo18.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo19: {
+			src: "/images/ourWork/vez_ostalo19.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
+		},
+		vez_ostalo20: {
+			src: "/images/ourWork/vez_ostalo20.jpg",
+			title: "Vez ostalo",
+			alt: "Vez ostalo",
 		},
 	},
 };

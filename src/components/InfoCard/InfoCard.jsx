@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledInfoCard } from "@components/InfoCard/InfoCard.style";
 import Image from "next/image";
+
 import PropTypes from "prop-types";
+
+import { StyledInfoCard } from "@components/InfoCard/InfoCard.style";
 
 const InfoCard = (props) => {
 	return (

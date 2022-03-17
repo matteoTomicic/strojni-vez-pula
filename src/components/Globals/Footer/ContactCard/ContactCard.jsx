@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledContactCard } from "@components/Globals/Footer/ContactCard/ContactCard.style";
 import Image from "next/image";
+
 import PropTypes from "prop-types";
+
+import { StyledContactCard } from "@components/Globals/Footer/ContactCard/ContactCard.style";
 
 const ContactInfo = (props) => {
 	const generateCardType = () => (props.href ? <a href={props.href}>{props.text}</a> : props.text);

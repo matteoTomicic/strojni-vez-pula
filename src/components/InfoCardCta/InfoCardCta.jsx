@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import content from "@constants/content.constants";
 import Image from "next/image";
+
+import PropTypes from "prop-types";
+
 import { StyledInfoCardCta } from "@components/InfoCardCta/InfoCardCta.style";
 import CtaButton from "@UI/CtaButton";
-import PropTypes from "prop-types";
 
 const InfoCardCta = (props) => {
 	return (

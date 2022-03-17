@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledWhatWeDoCard } from "@components/WhatWeDo/WhatWeDoCard/WhatWeDoCard.style";
 import Image from "next/image";
+
 import PropTypes from "prop-types";
+
+import { StyledWhatWeDoCard } from "@components/WhatWeDo/WhatWeDoCard/WhatWeDoCard.style";
 
 const WhatWeDoCard = (props) => (
 	<StyledWhatWeDoCard>

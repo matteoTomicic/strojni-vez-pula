@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { StyledContactCard } from "@components/ContactCard/ContactCard.style";
 import Image from "next/image";
+
+import { StyledContactCard } from "@components/ContactCard/ContactCard.style";
 import images from "@constants/image.constants";
 import content from "@constants/content.constants";
 
