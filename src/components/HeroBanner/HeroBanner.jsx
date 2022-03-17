@@ -6,11 +6,13 @@ import PropTypes from "prop-types";
 import { StyledHeroBanner } from "@components/HeroBanner/HeroBanner.style";
 
 const HeroBanner = (props) => {
+	const { image, bannerTitle } = props;
+
 	return (
 		<StyledHeroBanner>
-			<Image {...props.image} />
+			<Image {...image} />
 			<div>
-				<h1>{props.bannerTitle}</h1>
+				<h1>{bannerTitle}</h1>
 			</div>
 		</StyledHeroBanner>
 	);

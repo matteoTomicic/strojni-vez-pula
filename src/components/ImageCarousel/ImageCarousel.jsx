@@ -7,9 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 import PropTypes from "prop-types";
 
 const ImageCarousel = (props) => {
+	const { settings, rtl, images } = props;
+
 	return (
-		<Slider {...props.settings} rtl={props.rtl ? true : false}>
-			{props.images.map((image, index) => {
+		<Slider {...settings} rtl={rtl ? true : false}>
+			{images.map((image, index) => {
 				return (
 					<div key={index}>
 						<Image {...image} />

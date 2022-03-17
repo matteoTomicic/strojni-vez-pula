@@ -6,11 +6,13 @@ import PropTypes from "prop-types";
 import { StyledContactCardMini } from "@components/ContactCardMiniWrapper/ContactCardMini/ContactCardMini.style";
 
 const ContactCardMini = (props) => {
-	const generateCardType = () => (props.href ? <a href={props.href}>{props.cardText}</a> : props.cardText);
+	const { href, cardText, icon } = props;
+
+	const generateCardType = () => (href ? <a href={href}>{cardText}</a> : cardText);
 
 	return (
 		<StyledContactCardMini>
-			<Image {...props.icon} width={35} height={35} />
+			<Image {...icon} width={35} height={35} />
 			<p>{generateCardType()}</p>
 		</StyledContactCardMini>
 	);

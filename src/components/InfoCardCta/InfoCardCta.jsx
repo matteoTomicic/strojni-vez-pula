@@ -7,20 +7,22 @@ import { StyledInfoCardCta } from "@components/InfoCardCta/InfoCardCta.style";
 import CtaButton from "@UI/CtaButton";
 
 const InfoCardCta = (props) => {
+	const { className, image, cardTitle, cardInfo, linkTo, ctaText } = props;
+
 	return (
-		<StyledInfoCardCta className={props.className}>
+		<StyledInfoCardCta className={className}>
 			<div className="container">
 				<div className="image image-dt">
-					<Image {...props.image} />
+					<Image {...image} />
 				</div>
 				<div className="content">
-					<h2>{props.cardTitle}</h2>
+					<h2>{cardTitle}</h2>
 					<div className="image image-sp">
-						<Image {...props.image} />
+						<Image {...image} />
 					</div>
 					<div className="ctaBox">
-						<p>{props.cardInfo}</p>
-						<CtaButton href={props.linkTo} className="cta-dark" linkTitle={props.ctaText} />
+						<p>{cardInfo}</p>
+						<CtaButton href={linkTo} className="cta-dark" linkTitle={ctaText} />
 					</div>
 				</div>
 			</div>
