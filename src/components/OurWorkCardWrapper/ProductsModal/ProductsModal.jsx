@@ -3,7 +3,6 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import PropTypes from "prop-types";
 
 import { StyledProductsModal } from "@components/OurWorkCardWrapper/ProductsModal/ProductsModal.styles";
-import {  vezovi } from "@global/mocks/ProductsGalleryImages";
 
 const ProductsModal = (props) => {
 	return (
@@ -11,7 +10,7 @@ const ProductsModal = (props) => {
 			<div className="modal-container">
 				<p onClick={props.closeModal}>X</p>
 				<div className="gallery">
-					<ImageGallery additionalClass="ImageGallery" items={vezovi} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} />
+					{props.items?.length ? <ImageGallery additionalClass="ImageGallery" items={props.items} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} /> : null}
 				</div>
 			</div>
 		</StyledProductsModal>
@@ -21,6 +20,7 @@ const ProductsModal = (props) => {
 ProductsModal.propTypes = {
 	className: PropTypes.string,
 	closeModal: PropTypes.func,
+	items: PropTypes.array,
 };
 
 export default ProductsModal;

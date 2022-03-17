@@ -16,11 +16,15 @@ export const StyledProductsModal = styled.div`
 
 	.ImageGallery {
 		.image-gallery-right-nav {
-			right: -15%;
+			@media (min-width: ${sizes.mdBreakMin}) {
+				right: -15%;
+			}
 		}
 
 		.image-gallery-left-nav {
-			left: -15%;
+			@media (min-width: ${sizes.mdBreakMin}) {
+				left: -15%;
+			}
 		}
 	}
 
