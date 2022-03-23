@@ -7,14 +7,15 @@ import { StyledOurWorkCard } from "@components/OurWorkCardWrapper/OurWorkCard/Ou
 import useScreenSize from "@components/Hooks/useScreenSize";
 
 const OurWorkCard = (props) => {
+	const { handleShowModal, cardImage, cardTitle } = props;
 	const screen = useScreenSize();
 	const cardImageSize = screen?.isDesktop ? 225 : screen?.isDesktopXL ? 260 : 200;
 
 	return (
-		<StyledOurWorkCard onClick={props.handleShowModal}>
-			<Image className="close-modal" {...props.cardImage} width={cardImageSize} height={cardImageSize} />
+		<StyledOurWorkCard onClick={handleShowModal}>
+			<Image className="close-modal" {...cardImage} width={cardImageSize} height={cardImageSize} />
 			<div>
-				<p>{props.cardTitle}</p>
+				<p>{cardTitle}</p>
 			</div>
 		</StyledOurWorkCard>
 	);

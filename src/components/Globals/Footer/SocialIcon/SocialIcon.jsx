@@ -5,11 +5,13 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 
 const SocialIcon = (props) => {
+	const { href, icon } = props;
+
 	return (
 		<div className="socialIcon-wrapper">
-			<Link href={props.href}>
+			<Link href={href}>
 				<a target="_blank">
-					<Image {...props.icon} />
+					<Image {...icon} />
 				</a>
 			</Link>
 		</div>

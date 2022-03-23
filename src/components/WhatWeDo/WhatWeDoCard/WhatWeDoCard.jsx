@@ -5,13 +5,17 @@ import PropTypes from "prop-types";
 
 import { StyledWhatWeDoCard } from "@components/WhatWeDo/WhatWeDoCard/WhatWeDoCard.style";
 
-const WhatWeDoCard = (props) => (
-	<StyledWhatWeDoCard>
-		<Image {...props.image} />
-		<h3>{props.cardTitle}</h3>
-		<p>{props.cardInfo}</p>
-	</StyledWhatWeDoCard>
-);
+const WhatWeDoCard = (props) => {
+	const { image, cardTitle, cardInfo } = props;
+
+	return (
+		<StyledWhatWeDoCard>
+			<Image {...image} />
+			<h3>{cardTitle}</h3>
+			<p>{cardInfo}</p>
+		</StyledWhatWeDoCard>
+	);
+};
 
 WhatWeDoCard.propTypes = {
 	image: PropTypes.object.isRequired,

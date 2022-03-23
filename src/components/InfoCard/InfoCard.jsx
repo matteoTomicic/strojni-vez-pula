@@ -6,15 +6,17 @@ import PropTypes from "prop-types";
 import { StyledInfoCard } from "@components/InfoCard/InfoCard.style";
 
 const InfoCard = (props) => {
+	const { className, image, cardTitle, cardInfo } = props;
+
 	return (
-		<StyledInfoCard className={props.className}>
+		<StyledInfoCard className={className}>
 			<div className="container">
 				<div className="image-wrapper">
-					<Image {...props.image} />
+					<Image {...image} />
 				</div>
 				<div className="text-wrapper">
-					<h3>{props.cardTitle}</h3>
-					<p>{props.cardInfo}</p>
+					<h3>{cardTitle}</h3>
+					<p>{cardInfo}</p>
 				</div>
 			</div>
 		</StyledInfoCard>

@@ -5,12 +5,14 @@ import PropTypes from "prop-types";
 import { StyledProductsModal } from "@components/OurWorkCardWrapper/ProductsModal/ProductsModal.styles";
 
 const ProductsModal = (props) => {
+	const { className, closeModal, items } = props;
+
 	return (
-		<StyledProductsModal className={props.className}>
+		<StyledProductsModal className={className}>
 			<div className="modal-container">
-				<p onClick={props.closeModal}>X</p>
+				<p onClick={closeModal}>X</p>
 				<div className="gallery">
-					{props.items?.length ? <ImageGallery additionalClass="ImageGallery" items={props.items} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} /> : null}
+					{items?.length ? <ImageGallery additionalClass="ImageGallery" items={items} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} /> : null}
 				</div>
 			</div>
 		</StyledProductsModal>

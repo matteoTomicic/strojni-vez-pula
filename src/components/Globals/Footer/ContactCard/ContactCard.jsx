@@ -6,11 +6,13 @@ import PropTypes from "prop-types";
 import { StyledContactCard } from "@components/Globals/Footer/ContactCard/ContactCard.style";
 
 const ContactInfo = (props) => {
-	const generateCardType = () => (props.href ? <a href={props.href}>{props.text}</a> : props.text);
+	const { href, text, icon } = props;
+
+	const generateCardType = () => (href ? <a href={href}>{text}</a> : text);
 
 	return (
 		<StyledContactCard>
-			<Image {...props.icon} />
+			<Image {...icon} />
 			<p>{generateCardType()}</p>
 		</StyledContactCard>
 	);
