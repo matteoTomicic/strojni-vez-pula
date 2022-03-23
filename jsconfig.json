@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@global/*": [
+                "./src/*"
+            ],
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@constants/*": [
+                "./src/constants/*"
+            ],
+            "@mocks/*": [
+                "./src/mocks/*"
+            ],
+            "@UI/*": [
+                "./src/components/UI/*"
+            ]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "build"]
+}
