@@ -1,4 +1,4 @@
-# WIP => strojni-vez-pula
+# strojni-vez-pula
 
 ## Installation steps
 1. Clone repository
