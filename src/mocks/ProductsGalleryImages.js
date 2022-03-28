@@ -62,7 +62,7 @@ export const vezovi = [
 
 export const ekoVrecice = [
 	{
-		original: images.products.vez_poklon_paket1.src,
+		original: images.products.vez_eko_vrecica1.src,
 	},
 	{
 		original: images.products.vez_eko_vrecica2.src,

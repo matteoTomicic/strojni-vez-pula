@@ -4,6 +4,7 @@ import { sizes } from "@global/styles";
 export const StyledHomepageBanner = styled.section`
 	.homepageBanner {
 		position: relative;
+		min-height: 31.5rem;
 
 		.image {
 			filter: brightness(35%);

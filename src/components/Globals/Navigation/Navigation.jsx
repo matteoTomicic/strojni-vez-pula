@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Link from "next/link";
 
 import { StyledNavigation } from "@components/Globals/Navigation/Navigation.style";
 import images from "@constants/image.constants";
@@ -35,7 +36,11 @@ const Navigation = () => {
 						<div onClick={togglerClick} className={["toggler", toggler ? "active" : ""].join(" ")}>
 							<span></span>
 						</div>
-						<Image {...images.logo} />
+						<Link href="/">
+							<a>
+								<Image {...images.logo} priority={true} />
+							</a>
+						</Link>
 					</div>
 					<nav className={["nav-items", isShown ? "nav-items-shown" : ""].join(" ")}>
 						{navLinks.map((navItem, index) => {

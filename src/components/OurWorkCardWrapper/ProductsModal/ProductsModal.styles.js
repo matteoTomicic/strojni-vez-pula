@@ -30,7 +30,6 @@ export const StyledProductsModal = styled.div`
 
 	p {
 		color: white;
-		font-family: cursive;
 		font-size: 3.5rem;
 		font-weight: bold;
 		width: fit-content;
