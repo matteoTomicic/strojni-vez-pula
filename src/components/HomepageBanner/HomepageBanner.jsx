@@ -9,7 +9,7 @@ import images from "@constants/image.constants";
 const HomepageBanner = () => (
 	<StyledHomepageBanner>
 		<div className="homepageBanner">
-			<Image {...images.banners.homepageBanner} className="image" />
+			<Image {...images.banners.homepageBanner} priority={true} className="image" />
 			<div className="container">
 				<div className="content">
 					<h1 className="contentHeading">{content.home.bannerTitle}</h1>

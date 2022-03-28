@@ -16,6 +16,10 @@ export const StyledNavigation = styled.header`
 			align-items: center;
 			padding: 0 3rem;
 
+			a {
+				display: flex;
+			}
+
 			@media (min-width: ${sizes.mdBreakMin}) {
 				width: 20%;
 				padding: 0.5rem 0;

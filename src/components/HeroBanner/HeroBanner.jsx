@@ -10,7 +10,7 @@ const HeroBanner = (props) => {
 
 	return (
 		<StyledHeroBanner>
-			<Image {...image} />
+			<Image {...image} priority={true}/>
 			<div>
 				<h1>{bannerTitle}</h1>
 			</div>

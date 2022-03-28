@@ -5,7 +5,6 @@ const images = {
 		alt: "Strojni vez Pula logo",
 		width: 125,
 		height: 60,
-		priority: true,
 	},
 	banners: {
 		homepageBanner: {
@@ -15,7 +14,6 @@ const images = {
 			layout: "fill",
 			objectFit: "cover",
 			objectPosition: "top",
-			priority: true,
 			quality: 100,
 		},
 		konciZaVezenje: {
@@ -31,7 +29,6 @@ const images = {
 			alt: "Slon od konca za vezenje",
 			layout: "fill",
 			objectFit: "cover",
-			priority: true,
 			quality: 100,
 		},
 		vezBanner: {
@@ -40,7 +37,6 @@ const images = {
 			alt: "Banner vez",
 			layout: "fill",
 			objectFit: "cover",
-			priority: true,
 			quality: 100,
 		},
 		konci: {
