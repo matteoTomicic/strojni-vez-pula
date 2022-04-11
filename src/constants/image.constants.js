@@ -392,6 +392,16 @@ const images = {
 			title: "Vezovi",
 			alt: "Vezovi",
 		},
+		vezovi20: {
+			src: "/images/ourWork/vezovi20.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi21: {
+			src: "/images/ourWork/vezovi21.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
 		vez_eko_vrecica1: {
 			src: "/images/ourWork/vez_eko_vrecica1.jpg",
 			title: "Vez eko vrećica",
@@ -442,11 +452,6 @@ const images = {
 			title: "Vez eko vrećica",
 			alt: "Vez eko vrećica",
 		},
-		vez_eko_vrecica11: {
-			src: "/images/ourWork/vez_eko_vrecica11.jpg",
-			title: "Vez eko vrećica",
-			alt: "Vez eko vrećica",
-		},
 		vez_eko_vrecica12: {
 			src: "/images/ourWork/vez_eko_vrecica12.jpg",
 			title: "Vez eko vrećica",
@@ -459,11 +464,6 @@ const images = {
 		},
 		vez_eko_vrecica14: {
 			src: "/images/ourWork/vez_eko_vrecica14.jpg",
-			title: "Vez eko vrećica",
-			alt: "Vez eko vrećica",
-		},
-		vez_eko_vrecica15: {
-			src: "/images/ourWork/vez_eko_vrecica15.jpg",
 			title: "Vez eko vrećica",
 			alt: "Vez eko vrećica",
 		},
@@ -792,11 +792,6 @@ const images = {
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},
-		vez_ruksaci2: {
-			src: "/images/ourWork/vez_ruksaci2.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
 		vez_ruksaci3: {
 			src: "/images/ourWork/vez_ruksaci3.jpg",
 			title: "Vez ruksaci",
@@ -814,11 +809,6 @@ const images = {
 		},
 		vez_ruksaci6: {
 			src: "/images/ourWork/vez_ruksaci6.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
-		vez_ruksaci7: {
-			src: "/images/ourWork/vez_ruksaci7.jpg",
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},
@@ -852,28 +842,8 @@ const images = {
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},
-		vez_ruksaci14: {
-			src: "/images/ourWork/vez_ruksaci14.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
 		vez_ruksaci15: {
 			src: "/images/ourWork/vez_ruksaci15.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
-		vez_ruksaci16: {
-			src: "/images/ourWork/vez_ruksaci16.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
-		vez_ruksaci17: {
-			src: "/images/ourWork/vez_ruksaci17.jpg",
-			title: "Vez ruksaci",
-			alt: "Vez ruksaci",
-		},
-		vez_ruksaci18: {
-			src: "/images/ourWork/vez_ruksaci18.jpg",
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},
@@ -884,6 +854,21 @@ const images = {
 		},
 		vez_ruksaci20: {
 			src: "/images/ourWork/vez_ruksaci20.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci21: {
+			src: "/images/ourWork/vez_ruksaci21.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci22: {
+			src: "/images/ourWork/vez_ruksaci22.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci23: {
+			src: "/images/ourWork/vez_ruksaci23.jpg",
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},

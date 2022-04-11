@@ -20,7 +20,7 @@ const WhatWeDoCard = (props) => {
 WhatWeDoCard.propTypes = {
 	image: PropTypes.object.isRequired,
 	cardTitle: PropTypes.string.isRequired,
-	cardInfo: PropTypes.string.isRequired,
+	cardInfo: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 };
 
 export default WhatWeDoCard;

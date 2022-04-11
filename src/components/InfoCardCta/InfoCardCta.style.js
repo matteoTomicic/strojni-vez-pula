@@ -15,6 +15,7 @@ export const StyledInfoCardCta = styled.section`
 		max-width: 38rem;
 		margin: 0 auto;
 		text-align: center;
+		font-style: italic;
 
 		@media (min-width: ${sizes.mdBreakMin}) {
 			max-width: 52rem;
