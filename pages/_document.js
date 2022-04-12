@@ -39,7 +39,6 @@ class MyDocument extends Document {
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
 					<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="preload" as="style" />
 					<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet" />
-					<meta google-site-verification="6grrAJSDrbhgbvWPuSsMj_kmBMGePwTE_VGb5A9oEKE" />
 				</Head>
 				<body>
 					<Main />

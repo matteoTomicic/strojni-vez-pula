@@ -58,6 +58,12 @@ export const vezovi = [
 	{
 		original: images.products.vezovi19.src,
 	},
+	{
+		original: images.products.vezovi20.src,
+	},
+	{
+		original: images.products.vezovi21.src,
+	},
 ];
 
 export const ekoVrecice = [
@@ -92,9 +98,6 @@ export const ekoVrecice = [
 		original: images.products.vez_eko_vrecica10.src,
 	},
 	{
-		original: images.products.vez_eko_vrecica11.src,
-	},
-	{
 		original: images.products.vez_eko_vrecica12.src,
 	},
 	{
@@ -102,9 +105,6 @@ export const ekoVrecice = [
 	},
 	{
 		original: images.products.vez_eko_vrecica14.src,
-	},
-	{
-		original: images.products.vez_eko_vrecica15.src,
 	},
 	{
 		original: images.products.vez_eko_vrecica16.src,
@@ -314,9 +314,6 @@ export const vezRuksaci = [
 		original: images.products.vez_ruksaci1.src,
 	},
 	{
-		original: images.products.vez_ruksaci2.src,
-	},
-	{
 		original: images.products.vez_ruksaci3.src,
 	},
 	{
@@ -327,9 +324,6 @@ export const vezRuksaci = [
 	},
 	{
 		original: images.products.vez_ruksaci6.src,
-	},
-	{
-		original: images.products.vez_ruksaci7.src,
 	},
 	{
 		original: images.products.vez_ruksaci8.src,
@@ -350,25 +344,22 @@ export const vezRuksaci = [
 		original: images.products.vez_ruksaci13.src,
 	},
 	{
-		original: images.products.vez_ruksaci14.src,
-	},
-	{
 		original: images.products.vez_ruksaci15.src,
-	},
-	{
-		original: images.products.vez_ruksaci16.src,
-	},
-	{
-		original: images.products.vez_ruksaci17.src,
-	},
-	{
-		original: images.products.vez_ruksaci18.src,
 	},
 	{
 		original: images.products.vez_ruksaci19.src,
 	},
 	{
 		original: images.products.vez_ruksaci20.src,
+	},
+	{
+		original: images.products.vez_ruksaci21.src,
+	},
+	{
+		original: images.products.vez_ruksaci22.src,
+	},
+	{
+		original: images.products.vez_ruksaci23.src,
 	},
 ];
 
