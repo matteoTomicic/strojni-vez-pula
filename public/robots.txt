@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://strojnivezpula.com.hr
+
+# Sitemaps
+Sitemap: https://strojnivezpula.com.hr/sitemap.xml
