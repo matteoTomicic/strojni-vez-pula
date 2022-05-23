@@ -402,6 +402,61 @@ const images = {
 			title: "Vezovi",
 			alt: "Vezovi",
 		},
+		vezovi22: {
+			src: "/images/ourWork/vezovi22.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi23: {
+			src: "/images/ourWork/vezovi23.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi24: {
+			src: "/images/ourWork/vezovi24.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi25: {
+			src: "/images/ourWork/vezovi25.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi26: {
+			src: "/images/ourWork/vezovi26.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi27: {
+			src: "/images/ourWork/vezovi27.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi28: {
+			src: "/images/ourWork/vezovi28.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi29: {
+			src: "/images/ourWork/vezovi29.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi30: {
+			src: "/images/ourWork/vezovi30.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi31: {
+			src: "/images/ourWork/vezovi31.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
+		vezovi32: {
+			src: "/images/ourWork/vezovi32.jpg",
+			title: "Vezovi",
+			alt: "Vezovi",
+		},
 		vez_eko_vrecica1: {
 			src: "/images/ourWork/vez_eko_vrecica1.jpg",
 			title: "Vez eko vrećica",
@@ -484,6 +539,11 @@ const images = {
 		},
 		vez_eko_vrecica19: {
 			src: "/images/ourWork/vez_eko_vrecica19.jpg",
+			title: "Vez eko vrećica",
+			alt: "Vez eko vrećica",
+		},
+		vez_eko_vrecica20: {
+			src: "/images/ourWork/vez_eko_vrecica20.jpg",
 			title: "Vez eko vrećica",
 			alt: "Vez eko vrećica",
 		},
@@ -584,6 +644,11 @@ const images = {
 		},
 		vez_poklon_paket20: {
 			src: "/images/ourWork/vez_poklon_paket20.jpg",
+			title: "Vez poklon paket",
+			alt: "Vez poklon paket",
+		},
+		vez_poklon_paket21: {
+			src: "/images/ourWork/vez_poklon_paket21.jpg",
 			title: "Vez poklon paket",
 			alt: "Vez poklon paket",
 		},
@@ -869,6 +934,16 @@ const images = {
 		},
 		vez_ruksaci23: {
 			src: "/images/ourWork/vez_ruksaci23.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci24: {
+			src: "/images/ourWork/vez_ruksaci24.jpg",
+			title: "Vez ruksaci",
+			alt: "Vez ruksaci",
+		},
+		vez_ruksaci25: {
+			src: "/images/ourWork/vez_ruksaci25.jpg",
 			title: "Vez ruksaci",
 			alt: "Vez ruksaci",
 		},

@@ -64,6 +64,39 @@ export const vezovi = [
 	{
 		original: images.products.vezovi21.src,
 	},
+	{
+		original: images.products.vezovi22.src,
+	},
+	{
+		original: images.products.vezovi23.src,
+	},
+	{
+		original: images.products.vezovi24.src,
+	},
+	{
+		original: images.products.vezovi25.src,
+	},
+	{
+		original: images.products.vezovi26.src,
+	},
+	{
+		original: images.products.vezovi27.src,
+	},
+	{
+		original: images.products.vezovi28.src,
+	},
+	{
+		original: images.products.vezovi29.src,
+	},
+	{
+		original: images.products.vezovi30.src,
+	},
+	{
+		original: images.products.vezovi31.src,
+	},
+	{
+		original: images.products.vezovi32.src,
+	},
 ];
 
 export const ekoVrecice = [
@@ -117,6 +150,9 @@ export const ekoVrecice = [
 	},
 	{
 		original: images.products.vez_eko_vrecica19.src,
+	},
+	{
+		original: images.products.vez_eko_vrecica20.src,
 	},
 ];
 
@@ -180,6 +216,9 @@ export const poklonPaketi = [
 	},
 	{
 		original: images.products.vez_poklon_paket20.src,
+	},
+	{
+		original: images.products.vez_poklon_paket21.src,
 	},
 ];
 
@@ -360,6 +399,12 @@ export const vezRuksaci = [
 	},
 	{
 		original: images.products.vez_ruksaci23.src,
+	},
+	{
+		original: images.products.vez_ruksaci24.src,
+	},
+	{
+		original: images.products.vez_ruksaci25.src,
 	},
 ];
 
